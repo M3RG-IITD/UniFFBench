@@ -408,7 +408,7 @@ def replicate_system(atoms, replicate_factors):
     """
     nx, ny, nz = replicate_factors
     original_cell = atoms.get_cell()  # Original cell parameters
-    original_positions = atoms.get_positions() @ original_cell  # Convert positions to cartesian
+    original_positions = atoms.get_positions() #@ original_cell  # Convert positions to cartesian
     original_numbers = atoms.get_atomic_numbers()  # Atomic numbers of the atoms
     x_cell, y_cell, z_cell = original_cell[0], original_cell[1], original_cell[2]
     

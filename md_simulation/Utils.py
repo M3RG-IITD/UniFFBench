@@ -190,7 +190,7 @@ def replicate_system(atoms, replicate_factors):
     """
     nx, ny, nz = replicate_factors
     original_cell = atoms.get_cell()
-    original_positions = atoms.get_positions() @ original_cell  # Scaled or Unscaled ?
+    original_positions = atoms.get_positions() #@ original_cell  # Scaled or Unscaled ?
     original_numbers = atoms.get_atomic_numbers()
     x_cell, y_cell, z_cell = original_cell[0], original_cell[1], original_cell[2]
     new_numbers = []

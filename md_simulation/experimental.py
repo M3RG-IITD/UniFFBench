@@ -131,7 +131,7 @@ class TestArgs:
     results_dir="/home/civil/phd/cez218288/scratch/Universal_potential/Sim_output"
     input_dir="/home/civil/phd/cez218288/scratch/Universal_potential/Data/exp_1"
     device = "cuda"
-    max_atoms = 100  # Replicate upto max_atoms (Min. will be max_atoms/2) (#Won't reduce if more than max_atoms)
+    max_atoms = 200  # Replicate upto max_atoms (Min. will be max_atoms/2) (#Won't reduce if more than max_atoms)
     trajdump_interval = 10
     minimize_steps = 200
     thermo_interval = 10
