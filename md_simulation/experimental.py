@@ -21,7 +21,10 @@ from checkpoint import multitask_from_checkpoint
 from tqdm import tqdm
 from Utils import ASEcalculator
 from base import ForceRegressionTask
-
+from ase.units import GPa      ## 1 GPa = 1 / 160.21766208 eV/Å³.
+from scipy.stats import linregress
+import matplotlib.pyplot as plt
+import pandas as pd
 
 
 
@@ -37,6 +40,79 @@ def get_density(atoms: Atoms) -> float:
     density = mass_g / volume_cm3
 
     return density
+
+def elastic_tensor_calculation(atoms, calculator,filename):
+  atoms.calc = calculator
+
+  # Minimize the structure before stress calculations
+  dyn = FIRE(atoms)
+  dyn.run(fmax=0.05, steps=1000)  # Converge forces below 0.01 eV/Å
+
+  # Define small strain range
+  eps = 1e-4  # Maximum strain
+  n_points = 20  # Number of points from -eps to +eps
+  strain_values = np.linspace(-eps, eps, n_points)
+
+  Cij = np.zeros((6, 6))  # Elastic tensor storage
+
+  # Define strain matrices for Voigt notation (6 independent strains)
+  strain_matrices = [
+      [[1, 0, 0], [0, 0, 0], [0, 0, 0]],  # e_xx
+      [[0, 0, 0], [0, 1, 0], [0, 0, 0]],  # e_yy
+      [[0, 0, 0], [0, 0, 0], [0, 0, 1]],  # e_zz
+      [[0, 0, 0], [0, 0, 0.5], [0, 0.5, 0]],  # e_yz
+      [[0, 0, 0.5], [0, 0, 0], [0.5, 0, 0]],  # e_xz
+      [[0, 0.5, 0], [0.5, 0, 0], [0, 0, 0]],  # e_xy
+  ]
+
+  # Labels for the strain components in Voigt notation
+  voigt_labels = ['11', '22', '33', '23', '13', '12']
+
+  # Compute reference stress
+  ref_stress = atoms.get_stress(voigt=True)
+  elastic_data=[]
+
+  for i, strain_matrix in enumerate(strain_matrices):
+      stresses = np.zeros((n_points, 6))
+      intercepts=np.zeros((1,6))
+      r_values=np.zeros((1,6))
+      std_errs=np.zeros((1,6))
+
+      for j, strain in enumerate(strain_values):
+          strained_atoms = atoms.copy()
+          deformation_matrix = np.eye(3) + strain * np.array(strain_matrix)
+          strained_atoms.set_cell(atoms.cell @ deformation_matrix, scale_atoms=True)
+
+          strained_atoms.calc = calculator
+          dyn = FIRE(strained_atoms)
+          dyn.run(fmax=0.05, steps=1000)  # Minimize structure
+          stresses[j, :] = strained_atoms.get_stress(voigt=True) - ref_stress
+          
+          elastic_data.append([strain] + list(stresses[j, :]))
+
+      # Perform linear regression to find the best slope
+      for k in range(6):
+          slope, intercept, r_value, p_value, std_err = linregress(strain_values, stresses[:, k])
+
+          Cij[i, k] = slope
+          intercepts[:,k]=intercept
+          r_values[:,k]=r_value
+          std_errs[:,k]=std_err
+
+
+  # Convert the elastic tensor to GPa
+  Cij_GPa = Cij / GPa # Convert the elastic tensor to GPa (Cij_GPa)
+  
+#   print("Elastic Stiffness Tensor (Cij) in GPa:")
+#   print(np.array2string(Cij_GPa, precision=2, suppress_small=True,
+#                          formatter={'float_kind': lambda x: f"{x:6.2f}"}))
+
+# Save data as CSV using pandas
+  columns = ["Strain"] + [f"Stress_{label}" for label in voigt_labels]
+  df = pd.DataFrame(elastic_data, columns=columns)
+  df.to_csv(filename, index=False)
+  
+  return Cij_GPa
 
 
 def write_xyz(filepath: Union[str , Path], atoms: Atoms) -> None:
@@ -258,7 +334,10 @@ def main(args, config):
                 config.results_dir, f"{args.index}_Simulation_{file}"
             )
             print("SIMDIR:", sim_dir)
+            elastic_file=os.path.join(sim_dir,f'elastic_plot_{file}.csv')
             os.makedirs(sim_dir, exist_ok=True)
+            elastic_tensor=elastic_tensor_calculation(atoms,calculator, elastic_file)
+            # Run the simulation
             avg_density, avg_angles, avg_lattice_parameters = run_simulation(
                 calculator,
                 atoms,
@@ -276,6 +355,7 @@ def main(args, config):
                 + [avg_density]
                 + avg_lattice_parameters.tolist()
                 + avg_angles.tolist()
+                + [elastic_tensor[i,j] for i in range(6) for j in range(6)]
             )
             # Create a DataFrame
             columns = [
@@ -294,7 +374,7 @@ def main(args, config):
                 "Sim_alpha (°)",
                 "Sim_beta (°)",
                 "Sim_gamma (°)",
-            ]
+            ]+ [f"c{i+1}{j+1}" for i in range(6) for j in range(6)]
             df = pd.DataFrame(data, columns=columns)
 
             # Save the DataFrame to a CSV file
