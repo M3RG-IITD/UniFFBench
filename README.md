@@ -70,6 +70,11 @@ defined in the other configs (e.g. `lips` refers to the name of the YAML file)
 - Number of workers, epochs, callbacks are configured in `trainer.yaml`
 - Learning rate is configured in the model YAML.
 
+## **Benchmark Data and Results**
+The benchmark data for UniFF-MD are available in the `Data` and `Results` folders. Navigate to the following GitHub repository to access them:
+
+- **[Data Folder]:** Contains all input data files used for benchmarking.
+
 
 
 ## Citations
