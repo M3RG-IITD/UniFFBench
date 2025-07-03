@@ -23,25 +23,42 @@
     <h1>UniFF-MD: Universal Machine Learning Force Fields Molecular Dynamics</h1>
 </div>
 
-`mlipx` is a Python library designed for evaluating machine-learned interatomic
-potentials (MLIPs). It offers a growing set of evaluation methods alongside
-powerful visualization and comparison tools.
-
-The goal of `mlipx` is to provide a common platform for MLIP evaluation and to
-facilitate sharing results among researchers. This allows you to determine the
-applicability of a specific MLIP to your research and compare it against others.
+We present a comprehensive evaluation of six state-of-the-art UMLFFs (CHGNet, M3GNet,
+MACE, MatterSim, SevenNet, Orb) on a carefully curated dataset, namely
+`MinX-1.5K`, comprising ∼1,500 minerals with experimentally obtained crystal
+structures and elastic properties. Our analysis is divided into three parts: (1)
+A systematic comparison of model prediction across the minerals dataset, (2)
+A quantitative assessment of temporal evolution during MD simulations,and (3) Evaluation of elastic constants prediction to study their efficacy of modelling
+mechanical properties
 
 ## Installation
 
-Install `mlipx` via pip:
+- `Docker`: We provide a Dockerfile inside the `docker` that can be run to install a container using standard docker commands.
+- `mamba`: We have included a `mamba` specification that provides a complete out-of-the-box installation. Run `mamba env create -n matsciml --file conda.yml`, and will install all dependencies and `matsciml` as an editable install.
+- `pip`: In this case, we assume you are bringing your own virtual environment. Depending on what hardware platform you have, you can copy-paste the following commands; because the absolute mess that is modern Python packaging, these commands include the URLs for binary distributions of PyG and DGL graph backends.
 
-```bash
-pip install mlipx
+For CPU only (good for local laptop development):
+
+```console
+pip install -f https://data.pyg.org/whl/torch-2.4.0+cpu.html -f https://data.dgl.ai/wheels/torch-2.4/repo.html -e './[all]'
 ```
 
-> [!NOTE]
-> The `mlipx` package does not include the installation of any MLIP code, as we aim to keep the package as lightweight as possible.
-> If you encounter any `ImportError`, you may need to install the additional dependencies manually.
+For XPU usage, you will need to install PyTorch separately first, followed by `matsciml`; note that the PyTorch version is lower
+as 2.3.1 is the latest XPU binary distributed.
+
+```console
+pip install torch==2.3.1+cxx11.abi torchvision==0.18.1+cxx11.abi torchaudio==2.3.1+cxx11.abi intel-extension-for-pytorch==2.3.110+xpu oneccl_bind_pt==2.3.100+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
+pip install -f https://data.pyg.org/whl/torch-2.3.0+cpu.html -f https://data.dgl.ai/wheels/torch-2.3/repo.html -e './[all]'
+```
+
+For CUDA usage, substitute the index links with your particular toolkit version (e.g. 12.1 below):
+
+```console
+pip install -f https://data.dgl.ai/wheels/torch-2.4/cu121/repo.html -f https://data.pyg.org/whl/torch-2.4.0+cu121.html -e './[all]'
+```
+
+Additionally, for a development install, one can specify the extra packages like `black` and `pytest` with `pip install './[dev]'`. These can be
+added to the commit workflow by running `pre-commit install` to generate `git` hooks.
 
 ## Quickstart
 
@@ -123,46 +140,43 @@ mlipx compare --glob "*NEBs"
 ![ZnDraw UI](https://github.com/user-attachments/assets/a2e80caf-dd86-4f14-9101-6d52610b9c34#gh-dark-mode-only "ZnDraw UI")
 ![ZnDraw UI](https://github.com/user-attachments/assets/0c1eb681-a32c-41c2-a15e-2348104239dc#gh-light-mode-only "ZnDraw UI")
 
-## Python API
+## Citations
 
-You can also use all the recipes from the `mlipx` command-line interface
-programmatically in Python.
+If you use Open MatSci ML Toolkit in your technical work or publication, we would appreciate it if you cite the Open MatSci ML Toolkit paper in TMLR:
 
-> [!NOTE]
-> Whether you use the CLI or the Python API, you must work within a GIT
-> and DVC repository. This setup ensures reproducibility and enables automatic
-> caching and other features from DVC and ZnTrack.
+<details>
 
-```python
-import mlipx
+<summary>
+Miret, S.; Lee, K. L. K.; Gonzales, C.; Nassar, M.; Spellings, M. The Open MatSci ML Toolkit: A Flexible Framework for Machine Learning in Materials Science. Transactions on Machine Learning Research, 2023.
+</summary>
 
-# Initialize the project
-project = mlipx.Project()
-
-# Define an MLIP
-mace_mp = mlipx.GenericASECalculator(
-    module="mace.calculators",
-    class_name="mace_mp",
-    device="auto",
-    kwargs={
-        "model": "medium",
-    },
-)
-
-# Use the MLIP in a structure optimization
-with project:
-    data = mlipx.LoadDataFile(path="/your/data/file.xyz")
-    relax = mlipx.StructureOptimization(
-        data=data.frames,
-        data_id=-1,
-        model=mace_mp,
-        fmax=0.1
-    )
-
-# Reproduce the project state
-project.repro()
-
-# Access the results
-print(relax.frames)
-# >>> [ase.Atoms(...), ...]
+```bibtex
+@article{openmatscimltoolkit,
+  title = {The Open {{MatSci ML}} Toolkit: {{A}} Flexible Framework for Machine Learning in Materials Science},
+  author = {Miret, Santiago and Lee, Kin Long Kelvin and Gonzales, Carmelo and Nassar, Marcel and Spellings, Matthew},
+  year = {2023},
+  journal = {Transactions on Machine Learning Research},
+  issn = {2835-8856}
+}
 ```
+
+</details>
+
+
+
+<details>
+
+<summary>
+Lee, K. L. K., Gonzales, C., Nassar, M., Spellings, M., Galkin, M., & Miret, S. (2023). MatSciML: A Broad, Multi-Task Benchmark for Solid-State Materials Modeling. arXiv preprint arXiv:2309.05934.
+</summary>
+
+```bibtex
+@article{lee2023matsciml,
+  title={MatSciML: A Broad, Multi-Task Benchmark for Solid-State Materials Modeling},
+  author={Lee, Kin Long Kelvin and Gonzales, Carmelo and Nassar, Marcel and Spellings, Matthew and Galkin, Mikhail and Miret, Santiago},
+  journal={arXiv preprint arXiv:2309.05934},
+  year={2023}
+}
+```
+
+</details>
