@@ -32,9 +32,11 @@ defined in the other configs (e.g. `lips` refers to the name of the YAML file)
 - Learning rate is configured in the model YAML.
 
 <div align="center">
+<p align="center">
+  <img src="uniff.png" alt="My Project Logo" width="200">
+</p>
 
-![Logo](https://raw.githubusercontent.com/basf/mlipx/refs/heads/main/docs/source/_static/mlipx-light.svg#gh-light-mode-only)
-![Logo](https://raw.githubusercontent.com/basf/mlipx/refs/heads/main/docs/source/_static/mlipx-dark.svg#gh-dark-mode-only)
+
 
 [![PyPI version](https://badge.fury.io/py/mlipx.svg)](https://badge.fury.io/py/mlipx)
 [![ZnTrack](https://img.shields.io/badge/Powered%20by-ZnTrack-%23007CB0)](https://zntrack.readthedocs.io/en/latest/)
