@@ -51,7 +51,7 @@ defined in the other configs (e.g. `lips` refers to the name of the YAML file)
 </div>
 
 <div style="text-align: center;">
-    <h1>Machine-Learned Interatomic Potential eXploration</h1>
+    <h1>UniFF-MD: Universal Machine Learning Force Fields Molecular Dynamics</h1>
 </div>
 
 `mlipx` is a Python library designed for evaluating machine-learned interatomic
