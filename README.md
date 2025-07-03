@@ -33,7 +33,7 @@ defined in the other configs (e.g. `lips` refers to the name of the YAML file)
 
 <div align="center">
 <p align="center">
-  <img src="uniff.png" alt="My Project Logo" width="200">
+  <img src="uniff.png" alt="My Project Logo" width="150">
 </p>
 
 
