@@ -9,10 +9,9 @@
 [![ZnTrack](https://img.shields.io/badge/Powered%20by-ZnTrack-%23007CB0)](https://zntrack.readthedocs.io/en/latest/)
 [![ZnDraw](https://img.shields.io/badge/works_with-ZnDraw-orange)](https://github.com/zincware/zndraw)
 [![open issues](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/basf/mlipx/issues)
-[![Documentation Status](https://readthedocs.org/projects/mlipx/badge/?version=latest)](https://mlipx.readthedocs.io/en/latest/?badge=latest)
-[![DOI](https://img.shields.io/badge/chemrxiv-2025.0v720-red)](https://doi.org/10.26434/chemrxiv-2025-0v720)
 
-[📘Documentation](https://mlipx.readthedocs.io) |
+
+
 [🛠️Installation](https://mlipx.readthedocs.io/en/latest/installation.html) |
 [📜Recipes](https://mlipx.readthedocs.io/en/latest/recipes.html) |
 [🚀Quickstart](https://mlipx.readthedocs.io/en/latest/quickstart.html)
@@ -26,10 +25,10 @@
 We present a comprehensive evaluation of six state-of-the-art UMLFFs (CHGNet, M3GNet,
 MACE, MatterSim, SevenNet, Orb) on a carefully curated dataset, namely
 `MinX-1.5K`, comprising ∼1,500 minerals with experimentally obtained crystal
-structures and elastic properties. Our analysis is divided into three parts: (1)
-A systematic comparison of model prediction across the minerals dataset, (2)
-A quantitative assessment of temporal evolution during MD simulations,and (3) Evaluation of elastic constants prediction to study their efficacy of modelling
-mechanical properties
+structures and elastic properties. Our analysis is divided into three parts: 
+-  A systematic comparison of model prediction across the minerals dataset.
+-  A quantitative assessment of temporal evolution during MD simulations.
+-  Evaluation of elastic constants prediction to study their efficacy of modelling mechanical properties
 
 ## Installation
 
