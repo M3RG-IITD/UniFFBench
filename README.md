@@ -36,28 +36,6 @@ structures and elastic properties. Our analysis is divided into three parts:
 - `mamba`: We have included a `mamba` specification that provides a complete out-of-the-box installation. Run `mamba env create -n matsciml --file conda.yml`, and will install all dependencies and `matsciml` as an editable install.
 - `pip`: In this case, we assume you are bringing your own virtual environment. Depending on what hardware platform you have, you can copy-paste the following commands; because the absolute mess that is modern Python packaging, these commands include the URLs for binary distributions of PyG and DGL graph backends.
 
-For CPU only (good for local laptop development):
-
-```console
-pip install -f https://data.pyg.org/whl/torch-2.4.0+cpu.html -f https://data.dgl.ai/wheels/torch-2.4/repo.html -e './[all]'
-```
-
-For XPU usage, you will need to install PyTorch separately first, followed by `matsciml`; note that the PyTorch version is lower
-as 2.3.1 is the latest XPU binary distributed.
-
-```console
-pip install torch==2.3.1+cxx11.abi torchvision==0.18.1+cxx11.abi torchaudio==2.3.1+cxx11.abi intel-extension-for-pytorch==2.3.110+xpu oneccl_bind_pt==2.3.100+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
-pip install -f https://data.pyg.org/whl/torch-2.3.0+cpu.html -f https://data.dgl.ai/wheels/torch-2.3/repo.html -e './[all]'
-```
-
-For CUDA usage, substitute the index links with your particular toolkit version (e.g. 12.1 below):
-
-```console
-pip install -f https://data.dgl.ai/wheels/torch-2.4/cu121/repo.html -f https://data.pyg.org/whl/torch-2.4.0+cu121.html -e './[all]'
-```
-
-Additionally, for a development install, one can specify the extra packages like `black` and `pytest` with `pip install './[dev]'`. These can be
-added to the commit workflow by running `pre-commit install` to generate `git` hooks.
 
 ## Quickstart
 
