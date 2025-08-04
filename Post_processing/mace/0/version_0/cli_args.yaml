@@ -1,0 +1,24 @@
+command: python experimental.py --index 0 --runsteps 50000 --model_name mace_pyg --model_path
+  /store/code/ai4science/UIP_EVAL/2023-12-10-mace-128-L0_epoch-199.model --timestep
+  1.0 --input_dir /store/code/ai4science/UIP_EVAL/100_structures/100_Structure/100_cif
+  --device cpu --max_atoms 100 --trajdump_interval 10 --minimize_steps 1000 --thermo_interval
+  10 --log_dir_base simulation_results --dataset_config /store/code/ai4science/matsciml/experiments/configs/datasets
+  --trainer_config /store/code/ai4science/matsciml/experiments/configs/trainer --model_config
+  /store/code/ai4science/matsciml/experiments/configs/models --results_dir simulation_results/mace_pyg/0/version_0
+dataset_config: /store/code/ai4science/matsciml/experiments/configs/datasets
+device: cpu
+index: '0'
+input_dir: /store/code/ai4science/UIP_EVAL/100_structures/100_Structure/100_cif
+log_dir_base: simulation_results
+max_atoms: '100'
+minimize_steps: '1000'
+model_config: /store/code/ai4science/matsciml/experiments/configs/models
+model_name: mace_pyg
+model_path: /store/code/ai4science/UIP_EVAL/2023-12-10-mace-128-L0_epoch-199.model
+results_dir: simulation_results/mace_pyg/0/version_0
+runsteps: '50000'
+thermo_interval: '10'
+timestep: '1.0'
+trainer_config: /store/code/ai4science/matsciml/experiments/configs/trainer
+trajdump_interval: '10'
+file_name: Cinnabar
