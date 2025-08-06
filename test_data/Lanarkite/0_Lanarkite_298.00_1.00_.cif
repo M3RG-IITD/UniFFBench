@@ -1,0 +1,49 @@
+data_global
+_chemical_name_mineral 'Lanarkite'
+loop_
+_publ_author_name
+'Sahl K'
+_journal_name_full 'Zeitschrift fur Kristallographie'
+_journal_volume 132 
+_journal_year 1970
+_journal_page_first 99
+_journal_page_last 117
+_publ_section_title
+;
+ Zur kristallstruktur von lanarkit, Pb2O(SO4)
+;
+_database_code_amcsd 0010717
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'Pb2 S O5'
+_cell_length_a 13.769
+_cell_length_b 5.698
+_cell_length_c 7.079
+_cell_angle_alpha 90
+_cell_angle_beta 115.93
+_cell_angle_gamma 90
+_cell_volume 499.477
+_exptl_crystal_density_diffrn      7.001
+_symmetry_space_group_name_H-M 'C 2/m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,z'
+  'x,-y,z'
+  '1/2+x,1/2-y,z'
+  '-x,y,-z'
+  '1/2-x,1/2+y,-z'
+  '-x,-y,-z'
+  '1/2-x,1/2-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Pb1   0.14660   0.00000   0.10500   0.01646
+Pb2   0.02580   0.50000   0.27150   0.01545
+S   0.32900   0.50000   0.34400   0.01520
+O1   0.11100   0.00000   0.42900   0.02660
+O2   0.35500   0.71100   0.25100   0.02533
+O3   0.21300   0.50000   0.28400   0.02533
+O4   0.00000   0.24600   0.00000   0.02153

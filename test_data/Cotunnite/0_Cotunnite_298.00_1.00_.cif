@@ -1,0 +1,43 @@
+data_global
+_chemical_name_mineral 'Cotunnite'
+loop_
+_publ_author_name
+'Wyckoff R W G'
+_journal_name_full 'Crystal Structures'
+_journal_volume 1 
+_journal_year 1963
+_journal_page_first 298
+_journal_page_last 306
+_publ_section_title
+;
+ Second edition. Interscience Publishers, New York, New York
+;
+_database_code_amcsd 0011874
+_chemical_formula_sum 'Pb Cl2'
+_cell_length_a 9.030
+_cell_length_b 7.608
+_cell_length_c 4.525
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 310.869
+_exptl_crystal_density_diffrn      5.942
+_symmetry_space_group_name_H-M 'P n m a'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'x,y,1/2-z'
+  '-x,-y,1/2+z'
+  '1/2+x,1/2-y,1/2+z'
+  '1/2-x,1/2+y,1/2-z'
+  '1/2-x,1/2+y,z'
+  '1/2+x,1/2-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Pb   0.09560   0.26170   0.25000
+Cl1   0.07420   0.86100   0.25000
+Cl2   0.83700   0.47680   0.25000

@@ -1,0 +1,51 @@
+data_global
+_chemical_name_mineral 'Cuprostibite'
+loop_
+_publ_author_name
+'Pearson W B'
+_journal_name_full 'Zeitschrift fur Kristallographie'
+_journal_volume 171 
+_journal_year 1985
+_journal_page_first 23
+_journal_page_last 39
+_publ_section_title
+;
+ The Cu2Sb and related structures
+;
+_database_code_amcsd 0010875
+_chemical_formula_sum 'Cu2 Sb'
+_cell_length_a 4.0006
+_cell_length_b 4.0006
+_cell_length_c 6.1043
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 97.698
+_exptl_crystal_density_diffrn      8.459
+_symmetry_space_group_name_H-M 'P 4/n m m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-y,1/2-x,z'
+  'y,x,-z'
+  'y,-x,-z'
+  '1/2-y,1/2+x,z'
+  'x,-y,z'
+  '1/2-x,1/2+y,-z'
+  '1/2+x,1/2+y,-z'
+  '-x,-y,z'
+  '1/2+y,1/2+x,z'
+  '-y,-x,-z'
+  '-y,x,-z'
+  '1/2+y,1/2-x,z'
+  '-x,y,z'
+  '1/2+x,1/2-y,-z'
+  '1/2-x,1/2-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1   0.00000   0.00000   0.00000
+Sb   0.50000   0.00000   0.70000
+Cu2   0.50000   0.00000   0.27000

@@ -1,0 +1,62 @@
+data_global
+_chemical_name_mineral 'Covellite'
+loop_
+_publ_author_name
+'Berry L G'
+_journal_name_full 'American Mineralogist'
+_journal_volume 39 
+_journal_year 1954
+_journal_page_first 504
+_journal_page_last 509
+_publ_section_title
+;
+ The crystal structure of covellite, CuS and klockmannite, CuSe
+;
+_database_code_amcsd 0000065
+_chemical_compound_source 'Leonard mine, Butte, Montana, USA'
+_chemical_formula_sum 'Cu S'
+_cell_length_a 3.796
+_cell_length_b 3.796
+_cell_length_c 16.36
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 204.158
+_exptl_crystal_density_diffrn      4.666
+_symmetry_space_group_name_H-M 'P 63/m m c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,1/2+z'
+  'x,x-y,1/2-z'
+  '-x+y,-x,1/2-z'
+  'x-y,x,1/2+z'
+  '-y,-x,z'
+  'y,x,-z'
+  'y,-x+y,-z'
+  '-y,x-y,z'
+  'x-y,-y,1/2+z'
+  '-x+y,y,1/2-z'
+  'x,y,1/2-z'
+  '-x,-y,1/2+z'
+  'x,x-y,z'
+  '-x,-x+y,-z'
+  'x-y,x,-z'
+  '-x+y,-x,z'
+  'y,x,1/2+z'
+  '-y,-x,1/2-z'
+  '-y,x-y,1/2-z'
+  'y,-x+y,1/2+z'
+  '-x+y,y,z'
+  'x-y,-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cu1   0.33333   0.66667   0.75000   0.02330
+Cu2   0.33333   0.66667   0.10700   0.02330
+S1   0.33333   0.66667   0.25000   0.02330
+S2   0.00000   0.00000   0.06400   0.02330

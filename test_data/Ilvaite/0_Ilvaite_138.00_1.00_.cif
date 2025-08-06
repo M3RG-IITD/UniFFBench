@@ -1,0 +1,57 @@
+data_global
+_chemical_name_mineral 'Ilvaite'
+loop_
+_publ_author_name
+'Ghose S'
+'Sen Gupta P K'
+'Schlemper E O'
+_journal_name_full 'American Mineralogist'
+_journal_volume 70 
+_journal_year 1985
+_journal_page_first 1248
+_journal_page_last 1252
+_publ_section_title
+;
+ Electron ordering in ilvaite, a mixed-valence iron
+ silicate: crystal structure refinement at 138 K
+ Sample: T = 138 K
+;
+_database_code_amcsd 0001003
+_chemical_formula_sum 'Fe3 Ca Si2 O9 H'
+_cell_length_a 13.008
+_cell_length_b 8.784
+_cell_length_c 5.836
+_cell_angle_alpha 90
+_cell_angle_beta 90.21
+_cell_angle_gamma 90
+_cell_volume 666.830
+_exptl_crystal_density_diffrn      4.072
+_symmetry_space_group_name_H-M 'P 21/n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2-y,z'
+  '1/2-x,1/2+y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Fe1Ao   0.89001   0.05004   0.00852   0.00405
+Fe2Am   0.88996   0.05218   0.49051   0.00389
+Fe3B   0.94134   0.74089   0.24923   0.00389
+Ca   0.81261   0.37020   0.75256   0.00400
+Si1   0.95954   0.36916   0.24920   0.00295
+Si2   0.67914   0.22764   0.25180   0.00293
+O1   0.00900   0.02940   0.73790   0.00646
+O2o   0.93690   0.27220   0.01590   0.00443
+O2m   0.93540   0.27280   0.48290   0.00431
+O3   0.77740   0.11020   0.25530   0.00418
+O4o   0.67060   0.32890   0.01790   0.00469
+O4m   0.67030   0.33180   0.48300   0.00456
+O5   0.58480   0.10080   0.25240   0.00418
+O6   0.60180   0.02640   0.75190   0.00545
+O7   0.79800   0.10960   0.74410   0.00456
+H   0.74100   0.09800   0.74300   0.04053

@@ -1,0 +1,76 @@
+data_global
+_chemical_name_mineral 'Hydroxylwagnerite'
+loop_
+_publ_author_name
+'Raade G'
+'Romming C'
+_journal_name_full 'Zeitschrift fur Kristallographie'
+_journal_volume 177 
+_journal_year 1986
+_journal_page_first 15
+_journal_page_last 26
+_publ_section_title
+;
+ The crystal structure of beta-Mg2PO4OH,
+ a synthetic hydroxyl analogue of wagnerite
+;
+_database_code_amcsd 0010961
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'Mg2 P O5 H'
+_cell_length_a 9.656
+_cell_length_b 12.859
+_cell_length_c 12.069
+_cell_angle_alpha 90
+_cell_angle_beta 108.49
+_cell_angle_gamma 90
+_cell_volume 1421.208
+_exptl_crystal_density_diffrn      3.002
+_symmetry_space_group_name_H-M 'P 21/n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'x,1/2-y,1/2+z'
+  '-x,1/2+y,1/2-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Mg1   0.55110   0.07230   0.91540   0.00532
+Mg2   0.47100   0.06960   0.60070   0.00633
+Mg3   0.04290   0.18050   0.92200   0.00608
+Mg4   0.97100   0.17720   0.60960   0.00646
+Mg5   0.18930   0.02230   0.18710   0.00646
+Mg6   0.78550   0.00120   0.30370   0.00709
+Mg7   0.30570   0.22970   0.31830   0.00583
+Mg8   0.70950   0.25030   0.19490   0.00684
+P1   0.11370   0.07730   0.42480   0.00329
+P2   0.87910   0.07020   0.07510   0.00405
+P3   0.38210   0.17500   0.07470   0.00367
+P4   0.62180   0.17980   0.42260   0.00355
+O11   0.16640   0.11600   0.32230   0.00975
+O12   0.24470   0.04760   0.52950   0.00988
+O13   0.98680   0.01620   0.62000   0.00887
+O14   0.02830   0.16420   0.45850   0.00583
+O21   0.79520   0.09240   0.16150   0.00912
+O22   0.76840   0.05330   0.95200   0.00887
+O23   0.02380   0.02700   0.88540   0.00646
+O24   0.98450   0.15930   0.06830   0.00608
+O31   0.31980   0.14250   0.17190   0.00355
+O32   0.25920   0.20490   0.96250   0.00532
+O33   0.48380   0.23200   0.61820   0.00747
+O34   0.46770   0.08400   0.04590   0.00849
+O41   0.68930   0.15320   0.32730   0.00317
+O42   0.74290   0.20420   0.53630   0.00456
+O43   0.51880   0.22570   0.88040   0.00836
+O44   0.52050   0.09120   0.43940   0.00899
+O-h1   0.43440   0.03300   0.75420   0.00760
+O-h2   0.68880   0.08120   0.70050   0.00887
+O-h3   0.19020   0.16320   0.70920   0.00849
+O-h4   0.92800   0.21910   0.75920   0.00671
+H1   0.45300  -0.02700   0.75100   0.01267
+H2   0.70800   0.07800   0.63200   0.01267
+H3   0.22300   0.16700   0.66000   0.01267
+H4   0.96400   0.28600   0.77500   0.01267

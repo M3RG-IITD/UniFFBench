@@ -1,0 +1,50 @@
+data_global
+_chemical_name_mineral 'Iimoriite-(Y)'
+loop_
+_publ_author_name
+'Hughes J M'
+'Foord E E'
+'Jai-Nhuknan J'
+'Bell J M'
+_journal_name_full 'The Canadian Mineralogist'
+_journal_volume 34 
+_journal_year 1996
+_journal_page_first 817
+_journal_page_last 820
+_publ_section_title
+;
+ The atomic arrangement of iimoriite-(Y), Y2(SiO4)(CO3)
+;
+_database_code_amcsd 0005503
+_chemical_compound_source 'Bokan Mountain, Prince of Wales Island, Alaska, USA'
+_chemical_formula_sum 'Y2 Si C O7'
+_cell_length_a 6.5495
+_cell_length_b 6.6291
+_cell_length_c 6.4395
+_cell_angle_alpha 116.364
+_cell_angle_beta 92.556
+_cell_angle_gamma 95.506
+_cell_volume 248.156
+_exptl_crystal_density_diffrn      4.415
+_symmetry_space_group_name_H-M 'P -1'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Y1   0.16782   0.18941   0.25715   0.00619
+Y2   0.41401   0.70249   0.25067   0.00439
+Si   0.65780   0.24110   0.26320   0.00836
+C  -0.08920   0.73500   0.19360   0.00988
+O1   0.09610   0.83660   0.26490   0.01127
+O2   0.53310   0.34010   0.11370   0.01001
+O3   0.48340   0.08830   0.33120   0.00912
+O4   0.16820   0.90860   0.87420   0.01051
+O5   0.21650   0.25020   0.65630   0.01241
+O6   0.14660   0.37780   0.02420   0.01102
+O7   0.25100   0.56330   0.48040   0.01165

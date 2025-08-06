@@ -1,0 +1,64 @@
+data_global
+_chemical_name_mineral 'Jacquesdietrichite'
+loop_
+_publ_author_name
+'Kampf A R'
+'Favreau G'
+_journal_name_full 'European Journal of Mineralogy'
+_journal_volume 16 
+_journal_year 2004
+_journal_page_first 361
+_journal_page_last 366
+_publ_section_title
+;
+ Jacquesdietrichite, Cu2[BO(OH)2](OH)3, a new mineral from the
+ Tachgagalt mine, Morocco: Description and crystal structure
+;
+_database_code_amcsd 0007064
+_chemical_compound_source 'Tachgagalt mine, Morocco'
+_chemical_formula_sum 'Cu2 B O6 H5'
+_cell_length_a 9.455
+_cell_length_b 5.866
+_cell_length_c 8.668
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 480.754
+_exptl_crystal_density_diffrn      3.301
+_symmetry_space_group_name_H-M 'P n m a'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'x,1/2-y,z'
+  '-x,1/2+y,-z'
+  '1/2-x,1/2+y,1/2+z'
+  '1/2+x,1/2-y,1/2-z'
+  '1/2+x,y,1/2-z'
+  '1/2-x,-y,1/2+z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cu   0.24890   0.00190   0.92490   0.01130
+B   0.01500   0.25000   0.17200   0.00400
+O1   0.08970   0.05340   0.17810   0.00900
+O2   0.36290   0.25000   0.00440   0.00900
+O3   0.34640   0.75000   0.02210   0.00700
+O4   0.37070   0.25000   0.35010   0.01100
+O5   0.36560   0.75000   0.33040   0.00500
+H1   0.01800   0.96600   0.18800   0.05000
+H2   0.42800   0.25000   0.07200   0.05000
+H3   0.43500   0.75000   0.00400   0.05000
+H5   0.38400   0.75000   0.23500   0.05000
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cu 0.01220 0.00390 0.01780 0.00020 -0.00530 0.00040

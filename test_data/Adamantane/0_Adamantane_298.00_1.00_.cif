@@ -1,0 +1,51 @@
+data_global
+_chemical_name_mineral 'Adamantane'
+loop_
+_publ_author_name
+'Donohue J'
+'Goodman S H'
+_journal_name_full 'Acta Crystallographica'
+_journal_volume 22 
+_journal_year 1967
+_journal_page_first 352
+_journal_page_last 354
+_publ_section_title
+;
+ The crystal structure of adamantane:
+ An example of a false minimum in least squares
+ Note: low temperature phase
+;
+_database_code_amcsd 0009308
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'C5 H8'
+_cell_length_a 6.60
+_cell_length_b 6.60
+_cell_length_c 8.81
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 383.764
+_exptl_crystal_density_diffrn      1.179
+_symmetry_space_group_name_H-M 'P -4 21 c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-y,1/2-x,1/2+z'
+  'y,-x,-z'
+  '1/2-x,1/2+y,1/2-z'
+  '-x,-y,z'
+  '1/2+y,1/2+x,1/2+z'
+  '-y,x,-z'
+  '1/2+x,1/2-y,1/2-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+C1  -0.02960   0.18700   0.09990
+C2   0.15800   0.21870  -0.00090
+C3   0.00000   0.00000   0.20060
+H1  -0.05400   0.31700   0.16400
+H2   0.14100   0.01700   0.26700
+H3   0.29000   0.23700   0.07000
+H4   0.12900   0.35400  -0.06400

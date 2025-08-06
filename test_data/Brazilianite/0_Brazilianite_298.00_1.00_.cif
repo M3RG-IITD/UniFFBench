@@ -1,0 +1,75 @@
+data_global
+_chemical_name_mineral 'Brazilianite'
+loop_
+_publ_author_name
+'Gatehouse B M'
+'Miskin B K'
+_journal_name_full 'Acta Crystallographica, Section B'
+_journal_volume 30 
+_journal_year 1974
+_journal_page_first 1311
+_journal_page_last 1317
+_publ_section_title
+;
+ The crystal structure of brazilianite, NaAl3(PO4)2(OH)4
+;
+_database_code_amcsd 0009508
+_chemical_compound_source 'Corrego Frio pegmatite, Minas Gerais, Brazil'
+_chemical_formula_sum 'P2 Al3 Na O12 H4'
+_cell_length_a 11.233
+_cell_length_b 10.142
+_cell_length_c 7.097
+_cell_angle_alpha 90
+_cell_angle_beta 97.37
+_cell_angle_gamma 90
+_cell_volume 801.847
+_exptl_crystal_density_diffrn      2.998
+_symmetry_space_group_name_H-M 'P 21/n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2-y,1/2+z'
+  '1/2-x,1/2+y,1/2-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+P1   0.18040   0.31220   0.23750 ?
+P2   0.31240   0.32790   0.75380 ?
+Al1   0.04320   0.22040   0.56140 ?
+Al2   0.26300   0.06730   0.50820 ?
+Al3   0.45940   0.25450   0.43280 ?
+Na   0.30360   0.07510   0.03500 ?
+O1   0.10350   0.07940   0.44980   0.00671
+O2   0.42380   0.10100   0.56200   0.00709
+O3   0.00300   0.34960   0.72430   0.00684
+O4   0.49740   0.38600   0.26980   0.00697
+O5   0.11450   0.23920   0.06640   0.00836
+O6   0.28780   0.22190   0.31870   0.00671
+O7   0.22600   0.21350   0.68110   0.00697
+O8   0.38780   0.28060   0.93480   0.00785
+O9   0.10000   0.34030   0.39350   0.00773
+O10   0.39170   0.36730   0.60140   0.00773
+O11   0.22590   0.44680   0.18220   0.00874
+O12   0.23550   0.44870   0.79070   0.00773
+H1   0.06200   0.00300   0.37200   0.01267
+H2   0.46400   0.09800   0.68000   0.01267
+H3   0.07300   0.40800   0.74800   0.01267
+H4   0.04600   0.05800   0.84000   0.01267
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+P1 0.00320 0.00370 0.00370 0.00000 0.00030 0.00060
+P2 0.00330 0.00310 0.00400 -0.00020 0.00070 -0.00040
+Al1 0.00520 0.00470 0.00490 0.00050 0.00150 -0.00040
+Al2 0.00350 0.00480 0.00590 0.00030 0.00070 -0.00060
+Al3 0.00480 0.00460 0.00430 -0.00010 0.00110 0.00020
+Na 0.03690 0.01440 0.01730 -0.00490 0.00610 0.00050

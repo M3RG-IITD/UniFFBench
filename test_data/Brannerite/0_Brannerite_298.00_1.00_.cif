@@ -1,0 +1,60 @@
+data_global
+_chemical_name_mineral 'Brannerite'
+loop_
+_publ_author_name
+'Szymanski J T'
+'Scott J D'
+_journal_name_full 'The Canadian Mineralogist'
+_journal_volume 20 
+_journal_year 1982
+_journal_page_first 271
+_journal_page_last 280
+_publ_section_title
+;
+ A crystal structure refinement of synthetic brannerite UTi2O6 and its bearing
+ on rate of alkaline-carbonate leaching of brannerite in ore
+;
+_database_code_amcsd 0005188
+_chemical_formula_sum 'U Ti2 O6'
+_cell_length_a 9.8123
+_cell_length_b 3.7697
+_cell_length_c 6.9253
+_cell_angle_alpha 90
+_cell_angle_beta 118.957
+_cell_angle_gamma 90
+_cell_volume 224.138
+_exptl_crystal_density_diffrn      6.368
+_symmetry_space_group_name_H-M 'C 2/m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,z'
+  'x,-y,z'
+  '1/2+x,1/2-y,z'
+  '-x,y,-z'
+  '1/2-x,1/2+y,-z'
+  '-x,-y,-z'
+  '1/2-x,1/2-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+U   0.00000   0.00000   0.00000
+Ti   0.82356   0.00000   0.39107
+O1   0.97718   0.00000   0.30828
+O2   0.65272   0.00000   0.10530
+O3   0.28053   0.00000   0.40531
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+U 0.01290 0.00390 0.00650 0.00000 0.00690 0.00000
+Ti 0.00430 0.00490 0.00550 0.00000 0.00280 0.00000
+O1 0.00480 0.01570 0.00560 0.00000 0.00300 0.00000
+O2 0.00750 0.00920 0.00710 0.00000 0.00100 0.00000
+O3 0.01160 0.00480 0.01440 0.00000 0.00980 0.00000

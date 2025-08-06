@@ -1,0 +1,85 @@
+data_global
+_chemical_name_mineral 'Corkite'
+loop_
+_publ_author_name
+'Giuseppe G'
+'Tadini C'
+_journal_name_full 'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_volume 1987 
+_journal_year 1987
+_journal_page_first 71
+_journal_page_last 81
+_publ_section_title
+;
+ Corkite, PbFe3(SO4)(PO4)(OH)6, its crystal structure and ordered
+ arrangement of the tetrahedral cations
+ Note: this is the prefered structure of these authors
+;
+_database_code_amcsd 0014810
+_chemical_compound_source 'Dernbach, Hessen-Nassau, Germany'
+_chemical_formula_sum 'Pb Fe3 S P O14 H6'
+_cell_length_a 7.280
+_cell_length_b 7.280
+_cell_length_c 16.821
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 772.050
+_exptl_crystal_density_diffrn      4.309
+_symmetry_space_group_name_H-M 'R 3 m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '2/3+x,1/3+y,1/3+z'
+  '1/3+x,2/3+y,2/3+z'
+  'x,x-y,z'
+  '2/3+x,1/3+x-y,1/3+z'
+  '1/3+x,2/3+x-y,2/3+z'
+  '-y,-x,z'
+  '2/3-y,1/3-x,1/3+z'
+  '1/3-y,2/3-x,2/3+z'
+  '-x+y,y,z'
+  '2/3-x+y,1/3+y,1/3+z'
+  '1/3-x+y,2/3+y,2/3+z'
+  '-y,x-y,z'
+  '2/3-y,1/3+x-y,1/3+z'
+  '1/3-y,2/3+x-y,2/3+z'
+  '-x+y,-x,z'
+  '2/3-x+y,1/3-x,1/3+z'
+  '1/3-x+y,2/3-x,2/3+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Pb   0.00000   0.00000   0.00000   0.05129
+Fe   0.50130   0.00260   0.50020   0.01102
+S   0.00000   0.00000  -0.30980   0.00735
+P   0.00000   0.00000   0.31440   0.01406
+O1S   0.00000   0.00000  -0.39670   0.01418
+O1P   0.00000   0.00000   0.40510   0.01127
+O2S  -0.21910   0.21910   0.05040   0.01026
+O2P   0.22160  -0.22160  -0.05600   0.01279
+O-h1  -0.12640   0.12640  -0.12580   0.01330
+O-h2   0.12640  -0.12640   0.13730   0.01013
+H1  -0.19400   0.19400  -0.10800   0.03800
+H2   0.19200  -0.19200   0.11900   0.03800
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb 0.06967 0.06967 0.01433 0.03484 0.00000 0.00000
+Fe 0.01007 0.00826 0.01433 0.00403 0.00107 0.00215
+S 0.00141 0.00141 0.02007 0.00060 0.00000 0.00000
+P 0.02034 0.02034 0.00143 0.01007 0.00000 0.00000
+O1S 0.01450 0.01450 0.01433 0.00725 0.00000 0.00000
+O1P 0.01651 0.01651 0.00143 0.00826 0.00000 0.00000
+O2S 0.01671 0.01671 0.00143 0.01027 -0.00107 0.00107
+O2P 0.01430 0.01430 0.01290 0.00987 0.00215 -0.00215
+O-h1 0.01309 0.01309 0.02293 0.01309 0.00054 -0.00054
+O-h2 0.00926 0.00926 0.00287 -0.00201 0.00107 -0.00107

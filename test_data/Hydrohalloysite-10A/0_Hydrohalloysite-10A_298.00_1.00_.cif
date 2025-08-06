@@ -1,0 +1,47 @@
+data_global
+_chemical_name_mineral 'Hydrohalloysite-10A'
+loop_
+_publ_author_name
+'Mehmel M'
+_journal_name_full 'Zeitschrift fur Kristallographie'
+_journal_volume 90 
+_journal_year 1935
+_journal_page_first 35
+_journal_page_last 43
+_publ_section_title
+;
+ Uber die Struktur von Halloysit und Metahalloysit
+ Note: coordinates have been adjusted
+;
+_database_code_amcsd 0018094
+_chemical_compound_source 'not given'
+_chemical_formula_sum 'Al2 Si2 (O11 H8)'
+_cell_length_a 5.20
+_cell_length_b 8.92
+_cell_length_c 10.25
+_cell_angle_alpha 90
+_cell_angle_beta 100.
+_cell_angle_gamma 90
+_cell_volume 468.213
+_exptl_crystal_density_diffrn      2.087
+_symmetry_space_group_name_H-M 'A m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,z'
+  'x,-y,z'
+  '1/2+x,1/2-y,z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Al   0.25000   0.16667   0.00000
+Si   0.00830   0.16667  -0.44440
+O-H1  -0.04580   0.83333   0.11810
+O-H2   0.04580   0.00000  -0.11810
+O-H3   0.00830   0.16667   0.39720
+O-H4   0.00000   0.33333  -0.11810
+O-H5   0.50000   0.00000   0.11810
+O1   0.03330   0.00000   0.62500
+O2   0.28330   0.25000   0.62500

@@ -1,0 +1,49 @@
+data_global
+_chemical_name_mineral 'Hydroromarchite'
+loop_
+_publ_author_name
+'Abrahams I'
+'Grimes S M'
+'Johnston S R'
+'Knowles J C'
+_journal_name_full 'Acta Crystallographica, Section C'
+_journal_volume 52 
+_journal_year 1996
+_journal_page_first 286
+_journal_page_last 288
+_publ_section_title
+;
+ Tin(II) oxyhydroxide by X-ray powder diffraction
+;
+_database_code_amcsd 0010306
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'Sn3 O4 H2'
+_cell_length_a 7.9268
+_cell_length_b 7.9268
+_cell_length_c 9.1025
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 571.948
+_exptl_crystal_density_diffrn      4.902
+_symmetry_space_group_name_H-M 'P -4 21 c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-y,1/2-x,1/2+z'
+  'y,-x,-z'
+  '1/2-x,1/2+y,1/2-z'
+  '-x,-y,z'
+  '1/2+y,1/2+x,1/2+z'
+  '-y,x,-z'
+  '1/2+x,1/2-y,1/2-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Sn1   0.12180   0.29170  -0.00380   0.02700
+Sn2   0.00000   0.00000   0.27570   0.03200
+O2  -0.09740   0.19450   0.12770   0.01900
+O-H1   0.26060   0.09000   0.17300   0.01900

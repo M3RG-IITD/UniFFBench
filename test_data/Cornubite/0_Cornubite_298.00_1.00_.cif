@@ -1,0 +1,49 @@
+data_global
+_chemical_name_mineral 'Cornubite'
+loop_
+_publ_author_name
+'Tillmanns E'
+'Hofmeister W'
+'Petitjean K'
+_journal_name_full 'Bulletin of the Geological Society of Finland'
+_journal_volume 57 
+_journal_year 1985
+_journal_page_first 119
+_journal_page_last 127
+_publ_section_title
+;
+ Cornubite, Cu5(AsO4)2(OH)4, first occurence of single crystals,
+ mineralogical description and crystal structure
+;
+_database_code_amcsd 0012147
+_chemical_compound_source 'Reichenbach, Odenwald near Bensheim, Hessen, West Germany'
+_chemical_formula_sum 'Cu5 As2 O12'
+_cell_length_a 6.121
+_cell_length_b 6.251
+_cell_length_c 6.790
+_cell_angle_alpha 92.93
+_cell_angle_beta 111.30
+_cell_angle_gamma 107.47
+_cell_volume 227.109
+_exptl_crystal_density_diffrn      4.823
+_symmetry_space_group_name_H-M 'P -1'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Cu(l)   0.00000   0.00000   0.00000   0.00684
+Cu(2)  -0.00406   0.32402   0.33203   0.00785
+Cu(3)   0.50677   0.32154   0.32393   0.00684
+As   0.44718   0.17614   0.79809   0.00608
+O(1)   0.83270   0.68830   0.86020   0.00709
+O(2)   0.83860   0.99050   0.21470   0.00899
+O(3)   0.60340   0.01620   0.73860   0.00937
+O(4)   0.83830   0.34430   0.53290   0.00747
+O(5)   0.38180   0.33950   0.60670   0.00849
+O(6)   0.36500   0.65720   0.96230   0.00988

@@ -1,0 +1,62 @@
+data_global
+_chemical_name_mineral 'Insizwaite'
+loop_
+_publ_author_name
+'Furuseth S'
+'Selte K'
+'Kjekshus A'
+_journal_name_full 'Acta Chemica Scandinavica'
+_journal_volume 19 
+_journal_year 1965
+_journal_page_first 735
+_journal_page_last 741
+_publ_section_title
+;
+ Redetermined crystal structures of PdAs2, PdSb2,
+ PtP2, PtAs2, PtSb2, alpha-PtBi2, and AuSb2
+;
+_database_code_amcsd 0017788
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'Pt Bi2'
+_cell_length_a 6.7022
+_cell_length_b 6.7022
+_cell_length_c 6.7022
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 301.059
+_exptl_crystal_density_diffrn     13.525
+_symmetry_space_group_name_H-M 'P a -3'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+z,x,1/2-y'
+  'z,1/2-x,1/2+y'
+  '1/2-z,1/2+x,y'
+  '-z,-x,-y'
+  '1/2+y,1/2-z,-x'
+  '1/2-y,-z,1/2+x'
+  '-y,1/2+z,1/2-x'
+  'y,z,x'
+  'x,1/2-y,1/2+z'
+  '1/2-x,1/2+y,z'
+  '1/2+x,y,1/2-z'
+  '-x,-y,-z'
+  '1/2-z,-x,1/2+y'
+  '-z,1/2+x,1/2-y'
+  '1/2+z,1/2-x,-y'
+  'z,x,y'
+  '1/2-y,1/2+z,x'
+  '1/2+y,z,1/2-x'
+  'y,1/2-z,1/2+x'
+  '-y,-z,-x'
+  '-x,1/2+y,1/2-z'
+  '1/2+x,1/2-y,-z'
+  '1/2-x,-y,1/2+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Pt   0.00000   0.00000   0.00000
+Bi   0.37100   0.37100   0.37100

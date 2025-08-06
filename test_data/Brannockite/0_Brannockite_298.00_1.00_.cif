@@ -1,0 +1,80 @@
+data_global
+_chemical_name_mineral 'Brannockite'
+loop_
+_publ_author_name
+'Armbruster T'
+'Oberhansli R'
+_journal_name_full 'American Mineralogist'
+_journal_volume 73 
+_journal_year 1988
+_journal_page_first 595
+_journal_page_last 600
+_publ_section_title
+;
+ Crystal chemistry of double-ring silicates: Structures of sugilite and
+ brannockite
+;
+_database_code_amcsd 0001158
+_chemical_formula_sum 'K Sn2 Li3 Si12 O30'
+_cell_length_a 10.002
+_cell_length_b 10.002
+_cell_length_c 14.263
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 1235.706
+_exptl_crystal_density_diffrn      2.995
+_symmetry_space_group_name_H-M 'P 6/m c c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,1/2+z'
+  'x,x-y,1/2-z'
+  '-x+y,-x,-z'
+  'x-y,x,z'
+  '-y,-x,1/2+z'
+  'y,x,1/2-z'
+  'y,-x+y,-z'
+  '-y,x-y,z'
+  'x-y,-y,1/2+z'
+  '-x+y,y,1/2-z'
+  'x,y,-z'
+  '-x,-y,z'
+  'x,x-y,1/2+z'
+  '-x,-x+y,1/2-z'
+  'x-y,x,-z'
+  '-x+y,-x,z'
+  'y,x,1/2+z'
+  '-y,-x,1/2-z'
+  '-y,x-y,-z'
+  'y,-x+y,z'
+  '-x+y,y,1/2+z'
+  'x-y,-y,1/2-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+K   0.00000   0.00000   0.25000
+Sn   0.33333   0.66667   0.25000
+Li   0.50000   0.50000   0.25000
+Si   0.23866   0.35649   0.39057
+O1   0.13180   0.39770   0.00000
+O2   0.22370   0.28070   0.13420
+O3   0.15980   0.50380   0.17260
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K 0.01570 0.01570 0.00170 0.00785 0.00000 0.00000
+Sn 0.00460 0.00460 0.00450 0.00230 0.00000 0.00000
+Li 0.01900 0.01900 0.00800 0.01500 0.00000 0.00000
+Si 0.00380 0.00410 0.00290 0.00220 0.00060 0.00110
+O1 0.01900 0.01600 0.00300 0.00800 0.00000 0.00000
+O2 0.00870 0.01280 0.01340 0.00810 0.00060 0.00040
+O3 0.00770 0.00500 0.00720 0.00330 -0.00130 -0.00360

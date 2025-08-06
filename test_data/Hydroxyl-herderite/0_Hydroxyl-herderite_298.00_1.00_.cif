@@ -1,0 +1,61 @@
+data_global
+_chemical_name_mineral 'Hydroxyl-herderite'
+loop_
+_publ_author_name
+'Lager G A'
+'Gibbs G V'
+_journal_name_full 'American Mineralogist'
+_journal_volume 59 
+_journal_year 1974
+_journal_page_first 919
+_journal_page_last 925
+_publ_section_title
+;
+ A refinement of the crystal structure of herderite, CaBePO4OH
+;
+_database_code_amcsd 0000412
+_chemical_formula_sum 'Ca P Be O5 H'
+_cell_length_a 9.789
+_cell_length_b 7.661
+_cell_length_c 4.804
+_cell_angle_alpha 90
+_cell_angle_beta 90.02
+_cell_angle_gamma 90
+_cell_volume 360.269
+_exptl_crystal_density_diffrn      2.970
+_symmetry_space_group_name_H-M 'P 21/n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2-y,z'
+  '1/2-x,1/2+y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca   0.33090   0.11160   0.99740
+P   0.08150   0.27100   0.47080
+Be   0.33980   0.41410   0.53700
+O1   0.03960   0.39880   0.24660
+O2   0.45850   0.28350   0.65210
+O3   0.19350   0.34450   0.66690
+O4   0.14280   0.10590   0.33050
+O-H   0.33320   0.41230   0.20390
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca 0.00485 0.00565 0.00631 0.00000 0.00095 -0.00131
+P 0.00243 0.00268 0.00409 0.00000 0.00048 0.00056
+Be 0.00777 0.00387 0.00596 0.00000 -0.00071 0.00112
+O1 0.00631 0.00773 0.00818 0.00000 -0.00071 0.00242
+O2 0.00340 0.00743 0.00783 0.00114 0.00262 0.00186
+O3 0.00388 0.00981 0.00631 -0.00304 -0.00048 -0.00093
+O4 0.00825 0.00476 0.00900 0.00152 0.00429 0.00000
+O-H 0.00583 0.00922 0.00479 0.00114 -0.00071 0.00037

@@ -1,0 +1,79 @@
+data_global
+_chemical_name_mineral 'Hydroxyapophyllite-(K)'
+loop_
+_publ_author_name
+'Rouse R C'
+'Peacor D R'
+'Dunn P J'
+_journal_name_full 'American Mineralogist'
+_journal_volume 63 
+_journal_year 1978
+_journal_page_first 196
+_journal_page_last 202
+_publ_section_title
+;
+ Hydroxyapophyllite, a new mineral, and a redefinition of the apophyllite group
+ II. Crystal structure
+;
+_database_code_amcsd 0000617
+_chemical_compound_source 'Kimberley, South Africa'
+_chemical_formula_sum 'K Ca4 Si8 O29 H17'
+_cell_length_a 8.979
+_cell_length_b 8.979
+_cell_length_c 15.830
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 1276.253
+_exptl_crystal_density_diffrn      2.356
+_symmetry_space_group_name_H-M 'P 4/m n c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-y,1/2-x,1/2+z'
+  '1/2+y,1/2+x,1/2-z'
+  'y,-x,-z'
+  '-y,x,z'
+  '1/2+x,1/2-y,1/2+z'
+  '1/2-x,1/2+y,1/2-z'
+  'x,y,-z'
+  '-x,-y,z'
+  '1/2+y,1/2+x,1/2+z'
+  '1/2-y,1/2-x,1/2-z'
+  '-y,x,-z'
+  'y,-x,z'
+  '1/2-x,1/2+y,1/2+z'
+  '1/2+x,1/2-y,1/2-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+K   0.00000   0.00000   0.50000 ?
+Ca   0.11080   0.24750   0.00000 ?
+Si   0.22650   0.08640   0.18964 ?
+O1   0.86370   0.36370   0.25000 ?
+O2   0.08640   0.18900   0.21660 ?
+O3   0.26570   0.10250   0.09250 ?
+O4   0.21520   0.45040   0.08890 ?
+O-H   0.00000   0.00000   0.00000 ?
+H1   0.45300   0.13500   0.10600   0.08612
+H2   0.21400   0.43200   0.13400   0.00760
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K 0.02369 0.02369 0.04697 0.00000 0.00000 0.00000
+Ca 0.00980 0.00980 0.00978 0.00016 0.00000 0.00000
+Si 0.00817 0.00817 0.00939 0.00000 -0.00144 -0.00072
+O1 0.01103 0.01103 0.01143 0.00327 0.00360 -0.00360
+O2 0.01144 0.01715 0.02031 0.00408 -0.00216 -0.00504
+O3 0.01511 0.01675 0.01143 0.00000 -0.00144 -0.00072
+O4 0.03635 0.01756 0.01650 -0.00041 0.00072 -0.00432
+O-H 0.00531 0.00531 0.02793 0.00000 0.00000 0.00000

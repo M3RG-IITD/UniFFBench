@@ -1,0 +1,60 @@
+data_global
+_chemical_name_mineral 'Jagowerite'
+loop_
+_publ_author_name
+'Meagher E P'
+'Gibbons C S'
+'Trotter J'
+_journal_name_full 'American Mineralogist'
+_journal_volume 59 
+_journal_year 1974
+_journal_page_first 291
+_journal_page_last 295
+_publ_section_title
+;
+ The crystal structure of jagowerite: BaAl2P2O8(OH)2
+;
+_database_code_amcsd 0000398
+_chemical_formula_sum 'Ba Al2 P2 O10 H2'
+_cell_length_a 6.049
+_cell_length_b 6.964
+_cell_length_c 4.971
+_cell_angle_alpha 116.51
+_cell_angle_beta 86.06
+_cell_angle_gamma 112.59
+_cell_volume 171.667
+_exptl_crystal_density_diffrn      4.017
+_symmetry_space_group_name_H-M 'P -1'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ba   0.00000   0.00000   0.00000
+Al   0.36700   0.74840   0.45270
+P   0.80330   0.59170   0.27150
+O1   0.74500   0.53310  -0.05730
+O2   0.76650   0.37070   0.29850
+O3   0.06660   0.77290   0.38420
+O4   0.65140   0.71560   0.47950
+O-H   0.52800   0.94190   0.23890
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ba 0.01011 0.00946 0.00592 0.00231 0.00126 0.00203
+Al 0.00280 0.00465 0.00375 0.00225 0.00050 0.00141
+P 0.00249 0.00365 0.00257 0.00193 0.00062 0.00077
+O1 0.00887 0.00813 0.00385 0.00402 0.00050 0.00230
+O2 0.00700 0.00664 0.00671 0.00321 0.00087 0.00333
+O3 0.00373 0.00647 0.00849 0.00241 0.00657 0.00256
+O4 0.00545 0.00647 0.00671 0.00386 0.00037 0.00128
+O-H 0.00778 0.00547 0.00405 0.00241 0.00050 0.00128

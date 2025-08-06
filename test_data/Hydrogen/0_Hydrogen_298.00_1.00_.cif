@@ -1,0 +1,45 @@
+data_global
+_chemical_name_mineral 'Hydrogen peroxide'
+loop_
+_publ_author_name
+'Busing W'
+'Levy A'
+_journal_name_full 'Journal of Chemical Physics'
+_journal_volume 42 
+_journal_year 1965
+_journal_page_first 3054
+_journal_page_last 3059
+_publ_section_title
+;
+ Crystal and molecular structure of hydrogen peroxide.
+ A neutron-diffraction study
+ _cod_database_code 1008189
+;
+_database_code_amcsd 0016126
+_chemical_formula_sum 'H O'
+_cell_length_a 4.06
+_cell_length_b 4.06
+_cell_length_c 8.00
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 131.869
+_exptl_crystal_density_diffrn      1.713
+_symmetry_space_group_name_H-M 'P 41 21 2'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'y,x,-z'
+  '1/2-y,1/2+x,1/4+z'
+  '1/2-x,1/2+y,1/4-z'
+  '-x,-y,1/2+z'
+  '-y,-x,1/2-z'
+  '1/2+y,1/2-x,3/4+z'
+  '1/2+x,1/2-y,3/4-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+H  -0.04730   0.28380   0.13170
+O   0.07310   0.16700   0.22130

@@ -1,0 +1,54 @@
+data_global
+_chemical_name_mineral 'Brackebuschite'
+loop_
+_publ_author_name
+'Donaldson D M'
+'Barnes W H'
+_journal_name_full 'American Mineralogist'
+_journal_volume 40 
+_journal_year 1955
+_journal_page_first 597
+_journal_page_last 613
+_publ_section_title
+;
+ The structures of the minerals of the descloizite and adelite groups:
+ III - brackebuschite
+;
+_database_code_amcsd 0000072
+_chemical_formula_sum 'Pb2 V2 Mn O8'
+_cell_length_a 7.681
+_cell_length_b 6.155
+_cell_length_c 16.524
+_cell_angle_alpha 90
+_cell_angle_beta 93.75
+_cell_angle_gamma 90
+_cell_volume 779.525
+_exptl_crystal_density_diffrn      5.958
+_symmetry_space_group_name_H-M 'P 21/m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,y,1/2+z'
+  'x,1/2-y,z'
+  '1/2+x,1/2-y,1/2+z'
+  '-x,1/2+y,-z'
+  '1/2-x,1/2+y,1/2-z'
+  '-x,-y,-z'
+  '1/2-x,-y,1/2-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Pb1   0.11490   0.25000   0.37450   0.02406
+Pb2   0.62330   0.25000   0.29890   0.02406
+V1   0.64620   0.25000   0.08650   0.00633
+V2   0.12330   0.25000   0.16440   0.00633
+Mn   0.00000   0.00000   0.00000   0.01900
+O1   0.11400   0.02300   0.10400 ?
+O2   0.94100   0.25000   0.23000 ?
+O3   0.29900   0.25000   0.24700 ?
+O4   0.63200   0.02300   0.14500 ?
+O5   0.45500   0.25000   0.01700 ?
+O6   0.84600   0.25000   0.02400 ?

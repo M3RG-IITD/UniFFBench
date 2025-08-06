@@ -1,0 +1,79 @@
+data_global
+_chemical_name_mineral 'Breyite'
+loop_
+_publ_author_name
+'Brenker F E'
+'Nestola F'
+'Brenker L'
+'Peruzzo L'
+'Harris J W'
+_journal_name_full 'American Mineralogist'
+_journal_volume 106 
+_journal_year 2021
+_journal_page_first 38
+_journal_page_last 43
+_publ_section_title
+;
+ Origin, properties, and structure of breyite:
+ The second most abundant mineral inclusion in super-deep diamonds
+;
+_database_code_amcsd 0020946
+_chemical_compound_source 'In a diamond from the Juina area, Mato Grosso State, Brazil'
+_chemical_formula_sum 'Ca Si O3'
+_cell_length_a 6.6970
+_cell_length_b 9.2986
+_cell_length_c 6.6501
+_cell_angle_alpha 83.458
+_cell_angle_beta 76.226
+_cell_angle_gamma 69.581
+_cell_volume 376.722
+_exptl_crystal_density_diffrn      3.072
+_symmetry_space_group_name_H-M 'P -1'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Ca1   0.75613   0.00066   0.73730   0.01300
+Ca2   0.92091   0.33567   0.57443   0.01220
+Ca3   0.27088   0.35134   0.91503   0.01480
+Si1   0.47694   0.30162   0.45734   0.01080
+Si2   0.72580   0.01583   0.22948   0.01040
+Si3   0.83735   0.29427   0.10701   0.01090
+O1   0.22960   0.40350   0.54230   0.01350
+O2   0.61040   0.26450   0.64020   0.01360
+O3   0.49560   0.13730   0.36310   0.01420
+O4   0.65720   0.90600   0.11300   0.01330
+O5   0.90020   0.93970   0.37210   0.01240
+O6   0.80830   0.13590   0.04680   0.01310
+O7   0.87960   0.40680   0.91340   0.01320
+O8   0.02820   0.25710   0.23200   0.01340
+O9   0.59760   0.38560   0.25520   0.01440
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca1 0.01130 0.01650 0.01060 -0.00400 -0.00190 -0.00030
+Ca2 0.01070 0.01770 0.00920 -0.00570 -0.00220 -0.00080
+Ca3 0.01350 0.01710 0.01340 -0.00530 -0.00070 -0.00280
+Si1 0.00780 0.01430 0.00960 -0.00270 -0.00150 -0.00100
+Si2 0.00890 0.01440 0.00810 -0.00420 -0.00160 -0.00030
+Si3 0.01020 0.01450 0.00770 -0.00440 -0.00140 0.00010
+O1 0.00930 0.01910 0.01220 -0.00420 -0.00300 -0.00090
+O2 0.01040 0.01920 0.01120 -0.00470 -0.00260 -0.00030
+O3 0.01200 0.01930 0.01170 -0.00680 0.00040 -0.00290
+O4 0.01250 0.01660 0.01160 -0.00500 -0.00320 -0.00150
+O5 0.01140 0.01350 0.01070 -0.00080 -0.00370 -0.00220
+O6 0.01440 0.01610 0.00810 -0.00490 -0.00100 -0.00150
+O7 0.01610 0.01690 0.00830 -0.00820 -0.00240 0.00140
+O8 0.01330 0.01900 0.00830 -0.00510 -0.00410 0.00070
+O9 0.01220 0.01370 0.01220 -0.00170 0.00330 -0.00100

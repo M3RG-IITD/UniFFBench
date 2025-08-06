@@ -1,0 +1,53 @@
+data_global
+_chemical_name_mineral 'Illite'
+loop_
+_publ_author_name
+'Drits V A'
+'Zviagina B B'
+'McCarty D K'
+'Salyn A L'
+_journal_name_full 'American Mineralogist'
+_journal_volume 95 
+_journal_year 2010
+_journal_page_first 348
+_journal_page_last 361
+_publ_section_title
+;
+ Factors responsible for crystal-chemical variations in the solid solutions
+ from illite to aluminoceladonite and from glauconite to celadonite
+ Sample Name: RM30
+;
+_database_code_amcsd 0005015
+_chemical_compound_source 'Silver caldera, San Juan Mountains, Colorado'
+_chemical_formula_sum 'K Al2 Si4 O12 H2'
+_cell_length_a 5.2021
+_cell_length_b 8.9797
+_cell_length_c 10.226
+_cell_angle_alpha 90
+_cell_angle_beta 101.57
+_cell_angle_gamma 90
+_cell_volume 467.984
+_exptl_crystal_density_diffrn      2.834
+_symmetry_space_group_name_H-M 'C 2/m'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,z'
+  'x,-y,z'
+  '1/2+x,1/2-y,z'
+  '-x,y,-z'
+  '1/2-x,1/2+y,-z'
+  '-x,-y,-z'
+  '1/2-x,1/2-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+K   0.00000   0.50000   0.50000
+Al   0.50000   0.16670   0.00000
+Si   0.41910   0.32800   0.26880
+O1   0.34870   0.31000   0.10630
+O2   0.49840   0.50000   0.31310
+O3   0.67150   0.22460   0.33500
+O-H   0.41910   0.00000   0.10060

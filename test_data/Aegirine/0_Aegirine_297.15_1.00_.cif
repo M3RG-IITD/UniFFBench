@@ -1,0 +1,66 @@
+data_global
+_chemical_name_mineral 'Aegirine'
+loop_
+_publ_author_name
+'Cameron M'
+'Sueno S'
+'Prewitt C T'
+'Papike J J'
+_journal_name_full 'American Mineralogist'
+_journal_volume 58 
+_journal_year 1973
+_journal_page_first 594
+_journal_page_last 618
+_publ_section_title
+;
+ High-temperature crystal chemistry of acmite, diopside, hedenbergite, jadeite,
+ spodumene, and ureyite
+ T = 24 C
+ pyroxene
+;
+_database_code_amcsd 0000336
+_chemical_formula_sum 'Si2 Fe Na O6'
+_cell_length_a 9.658
+_cell_length_b 8.795
+_cell_length_c 5.294
+_cell_angle_alpha 90
+_cell_angle_beta 107.42
+_cell_angle_gamma 90
+_cell_volume 429.059
+_exptl_crystal_density_diffrn      3.576
+_symmetry_space_group_name_H-M 'A 2/n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,z'
+  'x,-y,1/2+z'
+  '1/2+x,1/2-y,1/2+z'
+  '-x,y,1/2-z'
+  '1/2-x,1/2+y,1/2-z'
+  '-x,-y,-z'
+  '1/2-x,1/2-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Si   0.29050   0.08940   0.23510
+Fe1   0.00000   0.89890   0.25000
+Na2   0.00000   0.29990   0.25000
+O1   0.11410   0.07840   0.13800
+O2   0.35820   0.25580   0.30010
+O3   0.35180   0.00790   0.01180
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Si 0.00215 0.00286 0.00498 -0.00033 -0.00068 -0.00002
+Fe1 0.00353 0.00337 0.00591 0.00000 -0.00045 0.00000
+Na2 0.01458 0.00741 0.01072 0.00000 -0.00281 0.00000
+O1 0.00250 0.00486 0.00600 -0.00057 -0.00125 0.00027
+O2 0.00572 0.00333 0.00967 -0.00218 0.00038 0.00000
+O3 0.00460 0.00745 0.00662 0.00070 0.00002 -0.00191

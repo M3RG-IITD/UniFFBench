@@ -1,0 +1,78 @@
+data_global
+_chemical_name_mineral 'Krivovichevite'
+loop_
+_publ_author_name
+'Krivovichev S V'
+'Armbruster T'
+'Yakovenchuk V N'
+_journal_name_full 'The Canadian Mineralogist'
+_journal_volume 47 
+_journal_year 2009
+_journal_page_first 153
+_journal_page_last 158
+_publ_section_title
+;
+ The crystal structure of krivovichevite, Pb3[Al(OH)6](SO4)(OH)
+;
+_database_code_amcsd 0006276
+_chemical_compound_source 'Mt. Lepkhe-Nelm, Lovozero alkaline massif, Kola Peninsula, Russia'
+_chemical_formula_sum 'Pb3 Al S (O11 H7)'
+_cell_length_a 7.742
+_cell_length_b 7.742
+_cell_length_c 32.082
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 1665.323
+_exptl_crystal_density_diffrn      5.167
+_symmetry_space_group_name_H-M 'R 3 c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '2/3+x,1/3+y,1/3+z'
+  '1/3+x,2/3+y,2/3+z'
+  'x,x-y,1/2+z'
+  '2/3+x,1/3+x-y,5/6+z'
+  '1/3+x,2/3+x-y,1/6+z'
+  '-y,-x,1/2+z'
+  '2/3-y,1/3-x,5/6+z'
+  '1/3-y,2/3-x,1/6+z'
+  '-x+y,y,1/2+z'
+  '2/3-x+y,1/3+y,5/6+z'
+  '1/3-x+y,2/3+y,1/6+z'
+  '-y,x-y,z'
+  '2/3-y,1/3+x-y,1/3+z'
+  '1/3-y,2/3+x-y,2/3+z'
+  '-x+y,-x,z'
+  '2/3-x+y,1/3-x,1/3+z'
+  '1/3-x+y,2/3-x,2/3+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Pb   0.31619   0.27974   0.85506   0.01540
+Al   0.00000   0.00000   0.94030   0.01200
+S   0.66667   0.33333   0.93590   0.01400
+O-H1  -0.02210   0.18520   0.90330   0.01700
+O-H2   0.03560  -0.17760   0.97610   0.01700
+O-H3   0.00000   0.00000   0.82590   0.01900
+O4   0.66667   0.33333   0.88940   0.02100
+O5   0.55470   0.12310   0.95060   0.01700
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb 0.01680 0.01410 0.01610 0.00830 0.00180 0.00120
+Al 0.01200 0.01200 0.01200 0.00600 0.00000 0.00000
+S 0.01400 0.01400 0.01500 0.00710 0.00000 0.00000
+O-H1 0.02400 0.01300 0.02400 0.01700 0.00300 0.00500
+O-H2 0.01700 0.01700 0.01400 0.00600 0.00000 0.00100
+O-H3 0.01700 0.01700 0.02200 0.00800 0.00000 0.00000
+O4 0.02000 0.02000 0.02400 0.01000 0.00000 0.00000
+O5 0.00900 0.01200 0.02600 0.00100 -0.00200 0.00600

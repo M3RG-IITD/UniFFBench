@@ -1,0 +1,72 @@
+data_global
+_chemical_name_mineral 'Langbeinite'
+loop_
+_publ_author_name
+'Mereiter K'
+_journal_name_full 'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_volume 1979 
+_journal_year 1979
+_journal_page_first 182
+_journal_page_last 188
+_publ_section_title
+;
+ Refinement of the crystal structure of langbeinite, K2Mg2(SO4)3
+;
+_database_code_amcsd 0017885
+_chemical_compound_source 'the Harmstorf deposit, Werratal, Hessen, Germany'
+_chemical_formula_sum 'K2 Mg2 S3 O12'
+_cell_length_a 9.919
+_cell_length_b 9.919
+_cell_length_c 9.919
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 975.896
+_exptl_crystal_density_diffrn      2.825
+_symmetry_space_group_name_H-M 'P 21 3'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-z,-x,1/2+y'
+  '-z,1/2+x,1/2-y'
+  '1/2+z,1/2-x,-y'
+  'z,x,y'
+  '1/2+y,1/2-z,-x'
+  '1/2-y,-z,1/2+x'
+  '-y,1/2+z,1/2-x'
+  'y,z,x'
+  '-x,1/2+y,1/2-z'
+  '1/2+x,1/2-y,-z'
+  '1/2-x,-y,1/2+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+K1   0.06673   0.06673   0.06673   0.00189
+K2   0.29822   0.29822   0.29822   0.00213
+Mg1   0.58508   0.58508   0.58508   0.00082
+Mg2   0.84902   0.84902   0.84902   0.00084
+S   0.62557   0.46596   0.26784   0.00066
+O1   0.65193   0.50333   0.40751   0.00196
+O2   0.75011   0.48499   0.19096   0.00232
+O3   0.57957   0.32559   0.25888   0.00167
+O4   0.52354   0.55420   0.20782   0.00203
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+K1 0.00189 0.00189 0.00189 -0.00016 -0.00016 -0.00016
+K2 0.00213 0.00213 0.00213 0.00007 0.00007 0.00007
+Mg1 0.00082 0.00082 0.00082 -0.00006 -0.00006 -0.00006
+Mg2 0.00084 0.00084 0.00084 0.00000 0.00000 0.00000
+S 0.00066 0.00063 0.00068 0.00011 0.00006 0.00000
+O1 0.00250 0.00219 0.00120 0.00032 -0.00034 -0.00079
+O2 0.00172 0.00257 0.00267 0.00023 0.00152 0.00033
+O3 0.00191 0.00079 0.00234 -0.00037 -0.00072 0.00009
+O4 0.00187 0.00167 0.00253 0.00098 -0.00084 0.00009

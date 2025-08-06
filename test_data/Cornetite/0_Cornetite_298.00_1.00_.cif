@@ -1,0 +1,72 @@
+data_global
+_chemical_name_mineral 'Cornetite'
+loop_
+_publ_author_name
+'Eby R K'
+'Hawthorne F C'
+_journal_name_full 'Mineralogy and Petrology'
+_journal_volume 40 
+_journal_year 1989
+_journal_page_first 127
+_journal_page_last 136
+_publ_section_title
+;
+ Cornetite: modulated densely-packed Cu2+ oxysalt
+;
+_database_code_amcsd 0014624
+_chemical_compound_source 'Mine de L'Etoile, Katanga, Zaire'
+_chemical_formula_sum 'Cu3 P O7 H3'
+_cell_length_a 10.854
+_cell_length_b 14.053
+_cell_length_c 7.086
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 1080.837
+_exptl_crystal_density_diffrn      4.137
+_symmetry_space_group_name_H-M 'P b c a'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'x,1/2-y,1/2+z'
+  '-x,1/2+y,1/2-z'
+  '1/2-x,1/2+y,z'
+  '1/2+x,1/2-y,-z'
+  '1/2+x,y,1/2-z'
+  '1/2-x,-y,1/2+z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1   0.01900   0.12739   0.18760
+Cu2   0.19409   0.24645   0.40293
+Cu3   0.10041   0.45217   0.10920
+P   0.38000   0.38640   0.20700
+O1   0.26900   0.41010   0.08570
+O2   0.92110   0.47260   0.17540
+O3   0.48960   0.35960   0.08120
+O4   0.34990   0.30340   0.34150
+O-H1   0.05640   0.33900   0.95510
+O-H2   0.18220   0.18760   0.14700
+O-H3   0.13430   0.56790   0.24500
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Cu1 0.01020 0.01660 0.01120 0.00100 -0.00070 -0.00290
+Cu2 0.01150 0.01580 0.01100 -0.00080 0.00140 -0.00380
+Cu3 0.00950 0.01280 0.01400 -0.00220 0.00000 0.00080
+P 0.00950 0.01490 0.00980 -0.00090 0.00060 -0.00080
+O1 0.00790 0.02430 0.01650 -0.00110 -0.00100 0.00170
+O2 0.01210 0.01270 0.01520 0.00330 -0.00060 0.00080
+O3 0.01030 0.02490 0.01310 0.00130 0.00270 0.00190
+O4 0.01570 0.01730 0.01150 0.00130 -0.00050 -0.00520
+O-H1 0.01100 0.01100 0.01000 -0.00220 0.00040 0.00170
+O-H2 0.01390 0.01450 0.00950 0.00050 -0.00230 -0.00210
+O-H3 0.01180 0.01310 0.01480 -0.00350 0.00100 0.00200

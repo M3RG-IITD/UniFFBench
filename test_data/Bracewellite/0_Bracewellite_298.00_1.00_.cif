@@ -1,0 +1,52 @@
+data_global
+_chemical_name_mineral 'Bracewellite'
+loop_
+_publ_author_name
+'Milton C'
+'Appleman D E'
+'Appleman M H'
+'Chao E C T'
+'Cuttita F'
+'Dinnin J I'
+'Dwornik E J'
+'Ingram B L'
+'Rose H J'
+_journal_name_full 'U.S. Geological Survey Professional Paper'
+_journal_volume 887 
+_journal_year 1976
+_journal_page_first 1
+_journal_page_last 29
+_publ_section_title
+;
+ Merumite, a complex assemblage of chromium minerals from Guyana
+;
+_database_code_amcsd 0015707
+_chemical_compound_source 'Guyana'
+_chemical_formula_sum 'Cr O2 H'
+_cell_length_a 4.492
+_cell_length_b 9.860
+_cell_length_c 2.974
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 131.722
+_exptl_crystal_density_diffrn      4.286
+_symmetry_space_group_name_H-M 'P n m a'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'x,y,1/2-z'
+  '-x,-y,1/2+z'
+  '1/2+x,1/2-y,1/2+z'
+  '1/2-x,1/2+y,1/2-z'
+  '1/2-x,1/2+y,z'
+  '1/2+x,1/2-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cr  -0.05200   0.14500   0.25000
+O1   0.30100  -0.19700   0.25000
+O-H2  -0.19800  -0.05400   0.25000

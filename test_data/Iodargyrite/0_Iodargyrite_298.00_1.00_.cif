@@ -1,0 +1,47 @@
+data_global
+_chemical_name_mineral 'Iodargyrite'
+loop_
+_publ_author_name
+'Aminoff G'
+_journal_name_full 'Zeitschrift fur Kristallographie'
+_journal_volume 57 
+_journal_year 1922
+_journal_page_first 180
+_journal_page_last 185
+_publ_section_title
+;
+ Ueber die Kristallstruktur von Ag I.
+ _cod_database_code 1011050
+;
+_database_code_amcsd 0017951
+_chemical_formula_sum 'Ag I'
+_cell_length_a 4.58
+_cell_length_b 4.58
+_cell_length_c 7.51
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 120
+_cell_volume 136.427
+_exptl_crystal_density_diffrn      5.715
+_symmetry_space_group_name_H-M 'P 63 m c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '-x,-x+y,1/2+z'
+  'x-y,x,1/2+z'
+  '-y,-x,z'
+  '-y,x-y,z'
+  'x-y,-y,1/2+z'
+  '-x,-y,1/2+z'
+  'x,x-y,z'
+  '-x+y,-x,z'
+  'y,x,1/2+z'
+  'y,-x+y,1/2+z'
+  '-x+y,y,z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ag1   0.33333   0.66667   0.00000
+I1   0.33333   0.66667   0.37500

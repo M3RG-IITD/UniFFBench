@@ -1,0 +1,59 @@
+data_global
+_chemical_name_mineral 'Brenkite'
+loop_
+_publ_author_name
+'Leufer U'
+'Tillmanns E'
+_journal_name_full 'Tschermaks Mineralogische und Petrographische Mitteilungen'
+_journal_volume 27 
+_journal_year 1980
+_journal_page_first 261
+_journal_page_last 266
+_publ_section_title
+;
+ Die kristallstruktur von brenkit, Ca2F2CO3
+;
+_database_code_amcsd 0015679
+_chemical_formula_sum 'Ca2 C O3 F2'
+_cell_length_a 7.650
+_cell_length_b 7.550
+_cell_length_c 6.548
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 378.196
+_exptl_crystal_density_diffrn      3.129
+_symmetry_space_group_name_H-M 'P b c n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'x,-y,1/2+z'
+  '-x,y,1/2-z'
+  '1/2-x,1/2+y,z'
+  '1/2+x,1/2-y,-z'
+  '1/2+x,1/2+y,1/2-z'
+  '1/2-x,1/2-y,1/2+z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca   0.32447   0.16198   0.46489
+C   0.00000   0.02830   0.25000
+O1   0.00000   0.20020   0.25000
+O2   0.36750   0.44510   0.32050
+F   0.37980   0.12050   0.10100
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ca 0.00874 0.00671 0.01077 -0.00013 -0.00051 -0.00013
+C 0.01152 0.00811 0.00849 0.00000 -0.00114 0.00000
+O1 0.02482 0.00722 0.01646 0.00000 0.00722 0.00000
+O2 0.01254 0.01241 0.02330 0.00203 0.00836 0.00519
+F 0.01102 0.01431 0.01330 -0.00089 -0.00101 -0.00253

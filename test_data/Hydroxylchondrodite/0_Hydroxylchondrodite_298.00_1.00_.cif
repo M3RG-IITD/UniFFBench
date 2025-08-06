@@ -1,0 +1,62 @@
+data_global
+_chemical_name_mineral 'Hydroxylchondrodite'
+loop_
+_publ_author_name
+'Lager G A'
+'Ulmer P'
+'Miletich R'
+'Marshall W G'
+_journal_name_full 'American Mineralogist'
+_journal_volume 86 
+_journal_year 2001
+_journal_page_first 176
+_journal_page_last 180
+_publ_section_title
+;
+ O-D...O bond geometry in OD-chondrodite
+;
+_database_code_amcsd 0002625
+_chemical_formula_sum 'Mg5 Si2 O10 D4'
+_cell_length_a 4.74711
+_cell_length_b 10.34888
+_cell_length_c 7.90228
+_cell_angle_alpha 108.678
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 367.771
+_exptl_crystal_density_diffrn      3.122
+_symmetry_space_group_name_H-M 'P 21/n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-x,1/2+y,z'
+  '1/2+x,1/2-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Mg1   0.50000   0.00000   0.50000   0.00620
+Mg2   0.00757   0.17530   0.30786   0.00580
+Mg3   0.48867   0.88362   0.07700   0.00570
+Si   0.07907   0.14085   0.70210   0.00300
+O1   0.77429   0.00303   0.29532   0.00570
+O2   0.72763   0.24381   0.12865   0.00490
+O3   0.22440   0.16834   0.52880   0.00670
+O4   0.26198   0.85634   0.29678   0.00640
+O5   0.26277   0.05998   0.10482   0.01230
+D1   0.08860   0.01920   0.01680   0.04670
+D2   0.43390   0.10020   0.20350   0.03850
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+O5 0.01380 0.00910 0.01370 0.00600 0.00960 0.00370
+D1 0.04800 0.03000 0.05200 -0.00200 -0.03200 -0.00200
+D2 0.03200 0.04800 0.03000 -0.00100 -0.00800 0.00500

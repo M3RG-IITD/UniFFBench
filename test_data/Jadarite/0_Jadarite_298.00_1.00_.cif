@@ -1,0 +1,73 @@
+data_global
+_chemical_name_mineral 'Jadarite'
+loop_
+_publ_author_name
+'Whitfield P S'
+'Le Page Y'
+'Grice J D'
+'Stanley C J'
+'Jones G C'
+'Rumsey M S'
+'Blake C'
+'Roberts A C'
+'Stirling J A R'
+'Carpenter G J C'
+_journal_name_full 'Acta Crystallographica, Section B'
+_journal_volume 63 
+_journal_year 2007
+_journal_page_first 396
+_journal_page_last 401
+_publ_section_title
+;
+ LiNaSiB3O7(OH) - novel structure of the new borosilicate mineral jadarite
+ determined from laboratory powder diffraction data
+;
+_database_code_amcsd 0009954
+_chemical_compound_source 'Jadar basin, Serbia'
+_chemical_formula_sum 'Li Na Si B3 O8 H'
+_cell_length_a 6.7620
+_cell_length_b 13.8016
+_cell_length_c 7.6878
+_cell_angle_alpha 90
+_cell_angle_beta 124.089
+_cell_angle_gamma 90
+_cell_volume 594.190
+_exptl_crystal_density_diffrn      2.453
+_symmetry_space_group_name_H-M 'P 21/n'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  'x,1/2-y,1/2+z'
+  '-x,1/2+y,1/2-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Li   0.46200   0.19950   0.13830   0.04600
+Na   0.97330   0.99060   0.75440   0.07640
+Si   0.03780   0.75390   0.20480   0.05840
+B1   0.20960   0.16020   0.66230   0.09100
+B2   0.69200   0.34930   0.41600   0.05400
+B3   0.52900   0.50220   0.78600   0.09470
+O1   0.81570   0.72410   0.98950   0.06510
+O2   0.26730   0.78180   0.21020   0.06630
+O3   0.97330   0.84830   0.28730   0.05810
+O4   0.11500   0.65840   0.34910   0.05420
+O5   0.74570   0.55060   0.87610   0.07080
+O6   0.68460   0.45600   0.35200   0.05700
+O7   0.54890   0.67250   0.61980   0.06340
+O8   0.52990   0.40510   0.83620   0.07330
+H   0.69900   0.39930   0.93600   0.09530
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Na 0.09100 0.06570 0.08100 0.01000 0.03800 -0.00460
+B3 0.04600 0.15800 0.09800 0.01600 0.04300 0.07800
