@@ -15,7 +15,7 @@
 
 We present a comprehensive evaluation of six state-of-the-art UMLFFs (CHGNet, M3GNet,
 MACE, MatterSim, SevenNet, Orb) on a carefully curated dataset, namely
-`MinX-1.5K`, comprising ∼1,500 minerals with experimentally obtained crystal
+`MinX`, comprising ∼1,500 minerals with experimentally obtained crystal
 structures and elastic properties. Our analysis is divided into three parts: 
 -  A systematic comparison of model prediction across the minerals dataset.
 -  A quantitative assessment of temporal evolution during MD simulations.
