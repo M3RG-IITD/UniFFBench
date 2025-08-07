@@ -30,8 +30,38 @@ structures and elastic properties. Our analysis is divided into three parts:
 
 ## Quickstart
 
-## Training folder structure
+## MD Simulation
 
+To run the MD simulation on the test data provided in the repository, use the following command.
+
+
+```console
+python  md_simulation/experiment_runner.py \
+	--model_name mattersim \
+	--input_dir test_data \
+	--index 1 \
+```
+
+If you want to run the simulation on your own data, you must prepare it in the same format as the files in the test_data folder and replace the data path from your own data.
+
+
+## **Benchmark Data and CIF Details**
+The benchmark test data for UniFF-MD are available in the `test_data` folder and full data can be accessed from  [Zenodo](https://doi.org/10.5281/zenodo.16733258). Complete details of minerals name, formula and reference are provided in the folder named as `CIF_metadata` Navigate to the following to access them:
+
+- **[test_data Folder]:** Contains sample data files used for benchmarking.
+- **[CIF_metadata Folder]:** Contains details of minerals metadata used for benchmarking.
+
+
+## Post processing
+
+once you ran the simulation you can use following script for post processing. Note: Before running the script, make sure to update the root_folder path in the Python file to match the directory of the model you are analyzing. 
+```console
+python  post_processing/trail_post_process.py \
+```
+
+## Training folder structure
+You can also use this framework to train interatomic potentials for your own structures.
+The training protocol is described as:
 `configs` contains the YAML configuration files used by the `matsciml` experiment parser.
 At a high level, a single experiment YAML defines the scope of the experiment (e.g. task,
 model, and dataset) imperatively. The experiment is then composed by passing definitions
@@ -61,10 +91,6 @@ defined in the other configs (e.g. `lips` refers to the name of the YAML file)
 - Number of workers, epochs, callbacks are configured in `trainer.yaml`
 - Learning rate is configured in the model YAML.
 
-## **Benchmark Data and Results**
-The benchmark data for UniFF-MD are available in the `Data` and `Results` folders. Navigate to the following GitHub repository to access them:
-
-- **[Data Folder]:** Contains all input data files used for benchmarking.
 
 
 
