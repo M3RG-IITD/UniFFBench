@@ -98,15 +98,14 @@ defined in the other configs (e.g. `lips` refers to the name of the YAML file)
 
 The MinX dataset used to benchmark the UMLFFs is available at [Zenodo](https://doi.org/10.5281/zenodo.16733258). Please cite the following paper if you use the dataset and UniFFBench Framework for your work.
 
-```console
-@misc{mannan2025evaluatinguniversalmachinelearning,
-      title={Evaluating Universal Machine Learning Force Fields Against Experimental Measurements}, 
-      author={Sajid Mannan and Vaibhav Bihani and Carmelo Gonzales and Kin Long Kelvin Lee and Nitya Nand Gosvami and Sayan Ranu and Santiago Miret and N M Anoop Krishnan},
-      year={2025},
-      eprint={2508.05762},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.mtrl-sci},
-      url={https://arxiv.org/abs/2508.05762}, 
+```bibtex
+@article{mannan2025evaluatinguniversalmachinelearning,
+  title={Evaluating Universal Machine Learning Force Fields Against Experimental Measurements},
+  author={Sajid Mannan and Vaibhav Bihani and Carmelo Gonzales and Kin Long Kelvin Lee and Nitya Nand Gosvami and Sayan Ranu and Santiago Miret and N. M. Anoop Krishnan},
+  year={2025},
+  eprint={2508.05762},
+  archivePrefix={arXiv},
+  primaryClass={cond-mat.mtrl-sci}
 }
 ```
 
