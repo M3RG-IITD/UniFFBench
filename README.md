@@ -96,40 +96,17 @@ defined in the other configs (e.g. `lips` refers to the name of the YAML file)
 
 ## Citations
 
-If you use Open MatSci ML Toolkit in your technical work or publication, we would appreciate it if you cite the Open MatSci ML Toolkit paper in TMLR:
+The MinX dataset used to benchmark the UMLFFs is available at [Zenodo](https://doi.org/10.5281/zenodo.16733258). Please cite the following paper if you use the dataset and UniFFBench Framework for your work.
 
-<details>
-
-<summary>
-Miret, S.; Lee, K. L. K.; Gonzales, C.; Nassar, M.; Spellings, M. The Open MatSci ML Toolkit: A Flexible Framework for Machine Learning in Materials Science. Transactions on Machine Learning Research, 2023.
-</summary>
-
-```bibtex
-@article{openmatscimltoolkit,
-  title = {The Open {{MatSci ML}} Toolkit: {{A}} Flexible Framework for Machine Learning in Materials Science},
-  author = {Miret, Santiago and Lee, Kin Long Kelvin and Gonzales, Carmelo and Nassar, Marcel and Spellings, Matthew},
-  year = {2023},
-  journal = {Transactions on Machine Learning Research},
-  issn = {2835-8856}
-}
-```
-
-</details>
-
-
-
-<details>
-
-<summary>
-Lee, K. L. K., Gonzales, C., Nassar, M., Spellings, M., Galkin, M., & Miret, S. (2023). MatSciML: A Broad, Multi-Task Benchmark for Solid-State Materials Modeling. arXiv preprint arXiv:2309.05934.
-</summary>
-
-```bibtex
-@article{lee2023matsciml,
-  title={MatSciML: A Broad, Multi-Task Benchmark for Solid-State Materials Modeling},
-  author={Lee, Kin Long Kelvin and Gonzales, Carmelo and Nassar, Marcel and Spellings, Matthew and Galkin, Mikhail and Miret, Santiago},
-  journal={arXiv preprint arXiv:2309.05934},
-  year={2023}
+```console
+@misc{mannan2025evaluatinguniversalmachinelearning,
+      title={Evaluating Universal Machine Learning Force Fields Against Experimental Measurements}, 
+      author={Sajid Mannan and Vaibhav Bihani and Carmelo Gonzales and Kin Long Kelvin Lee and Nitya Nand Gosvami and Sayan Ranu and Santiago Miret and N M Anoop Krishnan},
+      year={2025},
+      eprint={2508.05762},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.mtrl-sci},
+      url={https://arxiv.org/abs/2508.05762}, 
 }
 ```
 
