@@ -30,7 +30,7 @@ git submodule update --init --recursive
 conda create -n uniff python=3.11.11
 conda activate uniff
 pip install -r requirments.txt
-pip install torch-geometric==2.4.0
+pip install mace-torch==0.3.10
 cd matsciml ## change directory to matsciml folder
 pip install --no-deps -e .
 ```
