@@ -22,13 +22,15 @@ structures and elastic properties. Our analysis is divided into three parts:
 -  Evaluation of elastic constants prediction to study their efficacy of modelling mechanical properties
 
 ## Installation
-
+Clone this repository and its submodules:
 ```console
-conda create -n uniff python=3.9
+git clone https://github.com/M3RG-IITD/UniFFBench.git
+cd UniFFBench
+git submodule update --init --recursive
+conda create -n uniff python=3.11.11
 conda activate uniff
-pip install -r requirment.txt
-sh setup.sh
-
+pip install -r requirments.txt
+pip install torch-geometric==2.4.0
 cd matsciml ## change directory to matsciml folder
 pip install --no-deps -e .
 ```
@@ -46,12 +48,12 @@ pip install --no-deps -e .
 
 ## MD Simulation
 
-To run the MD simulation on the test data provided in the repository, use the following command.
+To run the MD simulation on the test data provided in the repository, first activate your created conda environment and go to the UniFFBench directory and run the following command in .
 
 
 ```console
 python  md_simulation/experiment_runner.py \
-	--model_name mattersim \
+	--model_name orb \
 	--input_dir test_data \
 	--index 1 \
 ```
