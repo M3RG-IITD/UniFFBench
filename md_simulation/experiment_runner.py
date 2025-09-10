@@ -221,12 +221,12 @@ if __name__ == "__main__":
     parser.add_argument("--trajdump_interval", type=int, default=10)
     parser.add_argument("--minimize_steps", type=int, default=1000)
     parser.add_argument("--thermo_interval", type=int, default=10)
-    parser.add_argument("--log_dir_base", type=Path, default="/home/civil/phd/cez218288/scratch/mace_v_0.3.5/cement_results") #default="./simulation_results")
+    parser.add_argument("--log_dir_base", type=Path, default="./simulation_results") #default="./simulation_results")
     parser.add_argument("--replica", action="store_true")
     parser.add_argument("--project", type=str, default="debug")
     parser.add_argument("--entity", type=str, default="sajidmannan")
-    parser.add_argument("--aim_repo", type=str, default="/home/civil/phd/cez218288/scratch/aim_repo")
-    parser.add_argument("--experiment_times_file", type=str, default="/home/civil/phd/cez218288/scratch/aim_repo/experiment_times.log")
+    parser.add_argument("--aim_repo", type=str, default="./simulation_results/aim_repo")
+    parser.add_argument("--experiment_times_file", type=str, default="./simulation_results/aim_repo/experiment_times.log")
 
     parser.add_argument("--debug", action="store_true")
 
