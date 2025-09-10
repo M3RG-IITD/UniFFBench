@@ -24,6 +24,7 @@ structures and elastic properties. Our analysis is divided into three parts:
 ## Installation
 Clone this repository and its submodules:
 ```console
+## Ensure CUDA >= 12.1 and GCC Compiler > 9.2 is available 
 git clone https://github.com/M3RG-IITD/UniFFBench.git
 cd UniFFBench
 git submodule update --init --recursive
@@ -52,8 +53,9 @@ To run the MD simulation on the test data provided in the repository, first acti
 
 
 ```console
+## Ensure internet is on to load the model checkpoint 
 python  md_simulation/experiment_runner.py \
-	--model_name orb \
+	--model_name mace_pyg \
 	--input_dir test_data \
 	--index 1 \
 ```
