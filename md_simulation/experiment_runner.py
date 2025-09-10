@@ -184,11 +184,8 @@ def main(args):
 
     for file in os.listdir(source_folder_path):
         file_path = os.path.join(source_folder_path, file)
-        # print("filepath kya hai:",file_path)
-        # print("file_namekya hai", file)
-
+        
         temperature, pressure = file.split("_")[2:4]
-        print(temperature,pressure)
         # pressure = pressure.strip("_")
         # temperature, pressure = float(temperature), float(pressure[0:-4])
         temperature, pressure = float(temperature), float(pressure)
