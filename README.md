@@ -60,7 +60,25 @@ python  md_simulation/experiment_runner.py \
 	--index 1 \
 ```
 
-If you want to run the simulation on your own data, you must prepare it in the same format as the files in the test_data folder and replace the data path from your own data.
+## Elastic Tensor
+
+To run the elastic tensor on the test data provided in the repository, first activate your created conda environment and go to the UniFFBench directory and run the following command in .
+
+
+```console
+## Ensure internet is on to load the model checkpoint 
+python  md_simulation/elastic_tensor_runner.py \
+	--model_name mace_pyg \
+	--input_dir test_data \
+	--index 1 \
+```
+
+
+Note: If you want to run the simulation on your own data, you must prepare it in the same format as the files in the test_data folder and replace the data path from your own data.
+
+
+
+
 
 
 ## **Benchmark Data and CIF Details**
