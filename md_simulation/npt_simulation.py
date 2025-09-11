@@ -165,6 +165,93 @@ def run_relaxation(atoms, minimize_steps, debug: bool = False, aim_experiment=No
     cell_params = atoms.get_cell_lengths_and_angles().tolist()
     return atoms, density, cell_params
 
+def run_elastic_tensor(atoms, args, temperature, pressure, file, aim_experiment):
+    data = []
+    # Replicate_system
+    replication_factors, size = symmetricize_replicate(
+        len(atoms),
+        max_atoms=args.max_atoms,
+        box_lengths=atoms.get_cell_lengths_and_angles()[:3],
+    )
+    atoms = replicate_system(atoms, replication_factors)
+
+    if not args.debug:
+        aim_experiment.log({"num_atoms": atoms.positions.shape[0]})
+
+    # Minimize the structure
+    atoms, density, cell_params = run_relaxation(
+        atoms, args.minimize_steps, args.debug, aim_experiment
+    )
+
+    sim_dir = os.path.join(args.results_dir, f"{args.index}_Simulation_{file}")
+    logger.info(f"Simulation directory: {sim_dir}")
+    elastic_file=os.path.join(sim_dir,f'elastic_plot_{file}.csv')   # Uncomment this for elastic tensor calculation
+    os.makedirs(sim_dir, exist_ok=True)
+    simulation_time_start = time.time()
+    elastic_tensor=elastic_tensor_calculation(atoms,atoms.calc, elastic_file)
+    avg_density, avg_angles, avg_lattice_parameters = run_simulation(
+        atoms.calc,
+        atoms,
+        pressure=pressure,
+        temperature=temperature,
+        timestep=args.timestep,
+        steps=1,
+        SimDir=sim_dir,
+        traj_dump_interval=args.trajdump_interval,
+        debug=args.debug,
+        aim_experiment=aim_experiment,
+    )
+    simulation_time = time.time() - simulation_time_start
+    if not args.debug:
+        aim_experiment.log({"simulation_time": simulation_time})
+    # Append the results to the data list
+    data.append(
+        [file[:-4], density]
+        + cell_params
+        + [avg_density]
+        + avg_lattice_parameters.tolist()
+        + avg_angles.tolist()
+        + [elastic_tensor[i,j] for i in range(6) for j in range(6)]
+    )
+    # Log final results to aim
+    total_energy = atoms.get_total_energy()
+    max_force = np.max(np.abs(atoms.get_forces()))
+    if not args.debug:
+        aim_experiment.log(
+            {
+                "exp_density": density,
+                "avg_density": avg_density,
+                "final_total_energy": total_energy,
+                "final_max_force": max_force,
+            }
+        )
+
+    # Create a DataFrame
+    columns = [
+        "Filename",
+        "Exp_Density (g/cm³)",
+        "Exp_a (Å)",
+        "Exp_b (Å)",
+        "Exp_c (Å)",
+        "Exp_alpha (°)",
+        "Exp_beta (°)",
+        "Exp_gamma (°)",
+        "Sim_Density (g/cm³)",
+        "Sim_a (Å)",
+        "Sim_b (Å)",
+        "Sim_c (Å)",
+        "Sim_alpha (°)",
+        "Sim_beta (°)",
+        "Sim_gamma (°)",
+    ]+ [f"c{i+1}{j+1}" for i in range(6) for j in range(6)]
+    df = pd.DataFrame(data, columns=columns)
+
+    # Save the DataFrame to a CSV file
+    df.to_csv(os.path.join(sim_dir, "Data.csv"), index=False)
+
+
+
+
 
 def run(atoms, args, temperature, pressure, file, aim_experiment):
     data = []
